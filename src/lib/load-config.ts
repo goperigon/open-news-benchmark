@@ -5,7 +5,10 @@ import { EventCoverageConfigSchema } from '../schema/event-coverage.ts'
 import { FreshQaConfigSchema } from '../schema/fresh-qa.ts'
 import { FreshQaStaticConfigSchema } from '../schema/freshqa-static.ts'
 import { UniverseFileSchema } from '../schema/universe.ts'
+import { CyberBreachConfigSchema, CyberPanelFileSchema } from '../schema/cyber-breach.ts'
 import {
+  cyberBreachConfigPath,
+  cyberBreachPanelPath,
   eventCoverageConfigPath,
   freshQaConfigPath,
   freshQaStaticConfigPath,
@@ -42,4 +45,14 @@ export function loadFreshQaConfig() {
 export function loadFreshQaStaticConfig() {
   const raw = JSON.parse(readFileSync(freshQaStaticConfigPath(), 'utf8')) as unknown
   return FreshQaStaticConfigSchema.parse(raw)
+}
+
+export function loadCyberBreachConfig() {
+  const raw = JSON.parse(readFileSync(cyberBreachConfigPath(), 'utf8')) as unknown
+  return CyberBreachConfigSchema.parse(raw)
+}
+
+export function loadCyberBreachPanel() {
+  const raw = JSON.parse(readFileSync(cyberBreachPanelPath(), 'utf8')) as unknown
+  return CyberPanelFileSchema.parse(raw)
 }

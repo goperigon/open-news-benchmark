@@ -3,6 +3,7 @@ import { mkdirSync } from 'node:fs'
 import { dirname } from 'node:path'
 
 import { initEventSchema } from './event-db.ts'
+import { initCyberSchema } from './cyber-db.ts'
 
 const SCHEMA = `
 CREATE TABLE IF NOT EXISTS runs (
@@ -82,6 +83,7 @@ export function openDatabase(dbPath: string): Database {
   db.exec(SCHEMA)
   migrateObservationsProviderTimestamp(db)
   initEventSchema(db)
+  initCyberSchema(db)
   return db
 }
 

@@ -4,7 +4,9 @@ Open News Benchmark measures how quickly **news data providers** surface stories
 
 ## Scope
 
-This project compares **news data APIs** (article search). It does **not** benchmark AI search or answer products that may consume these APIs as a data layer. Adapters for web-search / RAG answer engines are intentionally out of scope; pull requests that add them will be rejected.
+The **latency** suite compares **news data APIs** (article search). News API adapters for web-search / RAG answer engines remain out of scope for that suite.
+
+The **cyber-breach** suite is a separate, pre-registered protocol that compares **live incident detection** by a user-configured **Perigon Monitor** against **general-purpose LLMs with web search** (plus Google News RSS and Perigon search as baselines). See [suites/cyber-breach/METHODOLOGY.md](suites/cyber-breach/METHODOLOGY.md).
 
 ## Principles
 
@@ -19,6 +21,7 @@ This project compares **news data APIs** (article search). It does **not** bench
 | Suite ID | Status | Doc |
 | -------- | ------ | --- |
 | `latency` | Active (headline) | [suites/latency/METHODOLOGY.md](suites/latency/METHODOLOGY.md) |
+| `cyber-breach` | Active (optional) | [suites/cyber-breach/METHODOLOGY.md](suites/cyber-breach/METHODOLOGY.md) |
 
 Publish output includes the suites listed in [config/publishable.json](config/publishable.json).
 

@@ -9,6 +9,7 @@ import { runDoctor } from './providers/doctor.ts'
 import { buildSummary } from './report/build-summary.ts'
 import { exportRunCsv } from './report/export-csv.ts'
 import { publishResults } from './report/publish.ts'
+import { handleCyberCommand } from './cli/cyber.ts'
 
 function usage(): void {
   console.log(`Open News Benchmark
@@ -16,6 +17,11 @@ function usage(): void {
 Usage:
   bun run bench doctor [--skip-probe]
   bun run bench run [--duration <ms|quick|default>] [--run-id <id>] [--db <path>] [--target-articles <n>] [--drain-ms <ms>]
+  bun run bench cyber run [--duration <ms|quick|default>] [--run-id <id>] [--db <path>] [--target-incidents <n>] [--tracking-ms <ms>]
+  bun run bench cyber report --run-id <id> [--db <path>] [--publish]
+  bun run bench cyber adjudicate export --run-id <id> [--db <path>]
+  bun run bench cyber adjudicate import --run-id <id> --csv <path> [--db <path>]
+  bun run bench cyber extract-test [--run-id <id>] [--db <path>]
   bun run bench report --run-id <id> [--db <path>] [--publish]
   bun run bench export --run-id <id> [--db <path>]
   bun run bench audit-misses --run-id <id> --provider <id> [--n 50]
@@ -77,6 +83,21 @@ async function main(): Promise<void> {
         console.log(`               ${line.message}`)
       }
     }
+    const { allDiscoveryAdapters } = await import('./discovery/registry.ts')
+    console.log('               --- cyber-breach discovery ---')
+    for (const adapter of allDiscoveryAdapters()) {
+      const ready = adapter.isConfigured()
+      console.log(
+        `${(ready ? 'ready' : 'missing_key').padEnd(14)} ${adapter.id} (${adapter.displayName})`
+      )
+      if (!ready) {
+        console.log(`               missing: ${adapter.requiredEnv.join(', ')}`)
+      }
+    }
+    return
+  }
+
+  if (await handleCyberCommand(command, args)) {
     return
   }
 

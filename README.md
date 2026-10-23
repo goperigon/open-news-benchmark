@@ -28,6 +28,17 @@ For a full run (1,000 articles plus a 2-hour coverage window, typically ~5h wall
 
 For a ~90-minute query sanity check before a full run, use `./scripts/run-smoke.sh`.
 
+### Cyber-breach suite (Monitors vs LLMs)
+
+Answers: **“Why don’t I just use ChatGPT for this?”** — same live task, frozen prompts, pooled ground truth.
+
+```bash
+bun run bench cyber run --duration quick
+bun run bench cyber report --run-id <id> --publish
+```
+
+Smoke: `./scripts/run-cyber-smoke.sh`. Full: `./scripts/run-cyber.sh`. Methodology: [suites/cyber-breach/METHODOLOGY.md](suites/cyber-breach/METHODOLOGY.md).
+
 Results land in `results/latest.json` (schema in `src/schema/results.ts`).
 
 ## Commands
@@ -43,6 +54,10 @@ Results land in `results/latest.json` (schema in `src/schema/results.ts`).
 | `bench export --run-id <id>` | Raw CSV export |
 | `bench audit-misses --run-id <id> --provider <id>` | Sample never-found articles for manual review |
 | `bench db merge-run --from-db <path> --run-id <id>` | Copy a run between databases |
+| `bench cyber run` | Cyber-breach live detection run |
+| `bench cyber report --run-id <id> --publish` | Cyber-breach summary + comparison card |
+| `bench cyber adjudicate export\|import` | Blind review CSV for claims |
+| `bench cyber extract-test` | Common-article enrichment test |
 
 ## Methodology
 

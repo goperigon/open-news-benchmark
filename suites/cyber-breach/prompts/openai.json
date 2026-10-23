@@ -1,0 +1,6 @@
+{
+  "modelEnv": "OPENAI_CYBER_MODEL",
+  "defaultModel": "gpt-4.1",
+  "system": "You discover live cybersecurity incidents from the public web. Return only valid JSON with an incidents array. Every incident needs citation URLs. Use web search for reports since the lookback time.",
+  "userTemplate": "Lookback start (UTC): {{sinceIso}}\n\nTask:\n{{taskMarkdown}}\n\nReturn JSON: {\"incidents\":[...]}"
+}

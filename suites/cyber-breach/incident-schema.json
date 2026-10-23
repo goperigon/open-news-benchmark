@@ -1,0 +1,18 @@
+{
+  "description": "Shared output shape for all cyber-breach participants (Perigon Monitor, LLMs, baselines).",
+  "incident": {
+    "discoveryDate": "ISO-8601 date when the incident was first reported",
+    "shortDescription": "One sentence: what happened and who was affected",
+    "attackType": "BREACH | RANSOMWARE | DATA_LEAK | PHISHING | MALWARE | DDOS | SUPPLY_CHAIN | INSIDER | OTHER",
+    "impactedOrganizationNames": ["Organization names, including vendors or downstream customers when reported"],
+    "impactedOrganizationDomains": ["Domains when known"],
+    "organizationRoles": ["direct_victim | vendor | supplier | downstream_customer | other — parallel to names when known"],
+    "peopleAffectedCount": "integer or null",
+    "dataTypesCompromised": ["PII, credentials, health, financial, etc."],
+    "countriesAffected": ["Two-letter ISO country codes"],
+    "citationUrls": ["URLs supporting this incident claim"]
+  },
+  "response": {
+    "incidents": ["array of incident objects above, discovered since the lookback window"]
+  }
+}

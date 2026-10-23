@@ -1,0 +1,12 @@
+{
+  "groundTruthPollIntervalMs": 30000,
+  "maxPublisherAgeMs": 7200000,
+  "discoveryPollIntervalMs": 900000,
+  "trackingWindowMs": 14400000,
+  "incidentClusterWindowMs": 259200000,
+  "targetIncidentCount": 100,
+  "quickTargetIncidentCount": 5,
+  "quickRunDurationMs": 3600000,
+  "quickTrackingWindowMs": 3600000,
+  "defaultRunDurationMs": 345600000
+}

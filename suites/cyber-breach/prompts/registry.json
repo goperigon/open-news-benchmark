@@ -1,0 +1,22 @@
+{
+  "frozenAt": "2026-10-23",
+  "registrationOpenUntil": "2026-11-07",
+  "note": "Official series uses these prompt files unless a merged PR replaces them before registrationOpenUntil.",
+  "prompts": {
+    "openai.json": {
+      "sha256": "cc906dfdf7a54554ff71f873bee0ddfcabbe489ec685ec152d98f5399cc1e54e",
+      "defaultModel": "gpt-4.1",
+      "modelEnv": "OPENAI_CYBER_MODEL"
+    },
+    "anthropic.json": {
+      "sha256": "f49c296cd2bfc324d9796db7b7c9d33088bab3de25d62d489fc6fe4ba3ddbc1e",
+      "defaultModel": "claude-sonnet-4-20250514",
+      "modelEnv": "ANTHROPIC_CYBER_MODEL"
+    },
+    "gemini.json": {
+      "sha256": "82878dfc9515cb67760bb7d1db7cf9e46467d55dfe1224142497a01b0b25f9ea",
+      "defaultModel": "gemini-2.5-flash",
+      "modelEnv": "GEMINI_CYBER_MODEL"
+    }
+  }
+}

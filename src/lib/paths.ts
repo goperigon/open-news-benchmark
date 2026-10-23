@@ -50,6 +50,30 @@ export function publishableConfigPath(): string {
   return join(REPO_ROOT, 'config', 'publishable.json')
 }
 
+export function cyberBreachConfigPath(): string {
+  return join(REPO_ROOT, 'suites', 'cyber-breach', 'config.json')
+}
+
+export function cyberBreachPanelPath(): string {
+  return join(REPO_ROOT, 'suites', 'cyber-breach', 'panel.json')
+}
+
+export function cyberBreachPromptPath(): string {
+  return join(REPO_ROOT, 'suites', 'cyber-breach', 'prompt.md')
+}
+
+export function cyberBreachIncidentSchemaPath(): string {
+  return join(REPO_ROOT, 'suites', 'cyber-breach', 'incident-schema.json')
+}
+
+export function cyberBreachPerigonMonitorPath(): string {
+  return join(REPO_ROOT, 'suites', 'cyber-breach', 'perigon-monitor.json')
+}
+
+export function cyberBreachPromptsDir(): string {
+  return join(REPO_ROOT, 'suites', 'cyber-breach', 'prompts')
+}
+
 export function defaultDbPath(): string {
   return join(REPO_ROOT, 'data', 'benchmark.db')
 }

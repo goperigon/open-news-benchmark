@@ -1,0 +1,32 @@
+{
+  "uuid": "7f0ec4dc-d7d5-446f-954e-3eec34e2ae4e",
+  "name": "Benchmark: Global Cyber Attacks",
+  "status": "DRAFT",
+  "createdAt": "2026-10-23T17:10:31.524374Z",
+  "configSha256": "adb52bcfad87ea3e42d437045e093d60a2e14079e39c7f40033f44aa1a9a3fd8",
+  "note": "Set status to ACTIVE via Perigon before official runs. Harness reads events from PERIGON_MONITOR_ID (defaults to this uuid). Events API returns errors while DRAFT.",
+  "profile": {
+    "source": "Prior org monitors (30d) + query smoke on 2026-10-23",
+    "expectedEventsPerDay": "25-50 global breach-class events at broad scope",
+    "overlapNote": "~50% event overlap between two legacy cyber breach monitors; expect dedup tuning after first 24h ACTIVE.",
+    "activation": "Requires explicit approval before set_monitor_status ACTIVE."
+  },
+  "monitoringObjective": "Track reported cybersecurity breaches and data leaks globally as they are reported, including small and non-English incidents. Exclude general advice and patch-only announcements without a victim.",
+  "query": {
+    "q": "breach OR ransomware OR cyberattack OR \"data leak\"",
+    "searchTranslation": true
+  },
+  "dataSchema": {
+    "version": "V1",
+    "allowExtra": false,
+    "schema": {
+      "country": { "type": "STRING", "required": true },
+      "eventType": { "type": "ENUM", "values": ["CYBERSECURITY_BREACH"] },
+      "breachType": { "type": "ENUM", "values": ["OTHER", "RANSOMWARE", "DATA LEAK", "PHISHING"] },
+      "discoveryDate": { "type": "STRING", "required": true },
+      "shortDescription": { "type": "STRING", "required": true },
+      "peopleAffectedCount": { "type": "INTEGER", "required": false },
+      "affectedOrganizationName": { "type": "ARRAY", "required": true }
+    }
+  }
+}

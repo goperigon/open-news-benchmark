@@ -168,6 +168,46 @@ export const FreshQaSuiteResultSchema = z.object({
     .optional(),
 })
 
+export const CyberBreachMetricsSchema = z.object({
+  incidentCount: z.number().int().nonnegative(),
+  coveredWithin: z.object({
+    m15: z.number(),
+    m60: z.number(),
+    m240: z.number(),
+  }),
+  medianTimeToFindMs: z.number().nullable(),
+  neverFoundShare: z.number(),
+  enrichment: z.object({
+    orgNamesRate: z.number(),
+    peopleAffectedRate: z.number(),
+    dataTypesRate: z.number(),
+  }),
+  unsupportedClaimsPer100: z.number(),
+})
+
+export const CyberBreachSuiteResultSchema = z.object({
+  id: z.literal('cyber-breach'),
+  runId: z.string(),
+  windowStart: z.string(),
+  windowEnd: z.string(),
+  panelHash: z.string(),
+  configHash: z.string(),
+  discoveryPollIntervalMs: z.number(),
+  trackingWindowMs: z.number(),
+  providers: z.array(
+    z.object({
+      id: z.string(),
+      displayName: z.string(),
+      status: ProviderRunStatusSchema,
+      timingResolutionMs: z.number(),
+      metrics: CyberBreachMetricsSchema.optional(),
+    })
+  ),
+  comparisonCard: z.string(),
+})
+
+export type CyberBreachSuiteResult = z.infer<typeof CyberBreachSuiteResultSchema>
+
 export const FreshQaStaticSuiteResultSchema = z.object({
   id: z.literal('freshqa-static'),
   runId: z.string(),
@@ -215,6 +255,7 @@ export const SuiteResultSchema = z.discriminatedUnion('id', [
   EventCoverageSuiteResultSchema,
   FreshQaSuiteResultSchema,
   FreshQaStaticSuiteResultSchema,
+  CyberBreachSuiteResultSchema,
 ])
 
 export const BenchmarkSourceRunsSchema = z.object({

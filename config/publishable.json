@@ -1,5 +1,5 @@
 {
-  "comment": "Latency-only publish set (Perigon vs Google News RSS).",
+  "comment": "Publish sets per suite. Add cyber-breach after legal review of LLM ToS.",
   "allowedProviderIds": [
     "perigon",
     "google_news_rss",
@@ -10,5 +10,5 @@
     "newsapi_org",
     "gnews"
   ],
-  "allowedSuiteIds": ["latency"]
+  "allowedSuiteIds": ["latency", "cyber-breach"]
 }

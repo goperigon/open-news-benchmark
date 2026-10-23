@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "registeredAt": "2026-10-23T00:00:00.000Z",
+  "description": "Global multilingual cyber-news panel for the cyber-breach suite. Selected for RSS availability, not Perigon source coverage.",
+  "sources": [
+    {
+      "domain": "bleepingcomputer.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://www.bleepingcomputer.com/feed/"
+    },
+    {
+      "domain": "therecord.media",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://therecord.media/feed"
+    },
+    {
+      "domain": "securityweek.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://www.securityweek.com/feed/"
+    },
+    {
+      "domain": "cybernews.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://cybernews.com/feed/"
+    },
+    {
+      "domain": "scworld.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://www.scworld.com/rss/sc-world/rss.xml"
+    },
+    {
+      "domain": "darkreading.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://www.darkreading.com/rss.xml"
+    },
+    {
+      "domain": "bankinfosecurity.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://www.bankinfosecurity.com/rss-feeds"
+    },
+    {
+      "domain": "krebsonsecurity.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://krebsonsecurity.com/feed/"
+    },
+    {
+      "domain": "cyberscoop.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://cyberscoop.com/feed/"
+    },
+    {
+      "domain": "techcrunch.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://techcrunch.com/category/security/feed/"
+    },
+    {
+      "domain": "zdnet.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://www.zdnet.com/topic/security/rss.xml"
+    },
+    {
+      "domain": "heise.de",
+      "sourceType": "non_english",
+      "language": "de",
+      "country": "DE",
+      "feedUrl": "https://www.heise.de/security/rss/news.rdf"
+    },
+    {
+      "domain": "itmedia.co.jp",
+      "sourceType": "non_english",
+      "language": "ja",
+      "country": "JP",
+      "feedUrl": "https://rss.itmedia.co.jp/rss/2.0/itm_security.xml"
+    },
+    {
+      "domain": "etnews.com",
+      "sourceType": "non_english",
+      "language": "ko",
+      "country": "KR",
+      "feedUrl": "https://rss.etnews.com/Section901.xml"
+    },
+    {
+      "domain": "thehackernews.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "IN",
+      "feedUrl": "https://feeds.feedburner.com/TheHackersNews"
+    }
+  ]
+}

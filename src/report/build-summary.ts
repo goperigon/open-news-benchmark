@@ -9,6 +9,8 @@ import { buildLatencySuite } from './build-latency-suite.ts'
 import { buildEventCoverageSuite } from './build-event-coverage-suite.ts'
 import { buildFreshQaSuite } from './build-fresh-qa-suite.ts'
 import { buildFreshQaStaticSuite } from './build-freshqa-static-suite.ts'
+import { buildCyberBreachSuite } from './build-cyber-suite.ts'
+import { loadCyberBreachConfig } from '../lib/load-config.ts'
 import { attachBenchmarkMetadata } from './benchmark-metadata.ts'
 
 function loadPublishable(): { providers: Set<string>; suites: Set<string> } {
@@ -70,6 +72,9 @@ export function buildSummary(db: Database, runId: string, region: string): Bench
     }
   } else if (run.suite_id === 'freshqa-static') {
     suites.push(buildFreshQaStaticSuite(db, run, publishable.providers))
+  } else if (run.suite_id === 'cyber-breach') {
+    const cyberConfig = loadCyberBreachConfig()
+    suites.push(buildCyberBreachSuite(db, run, cyberConfig.trackingWindowMs))
   } else {
     if (listArticlesForRun(db, runId).length > 0) {
       suites.push(buildLatencySuite(db, run, publishable.providers))
