@@ -1,0 +1,14 @@
+{
+  "comment": "Latency-only publish set (Perigon vs Google News RSS).",
+  "allowedProviderIds": [
+    "perigon",
+    "google_news_rss",
+    "newscatcher",
+    "eventregistry",
+    "webz",
+    "newsdata",
+    "newsapi_org",
+    "gnews"
+  ],
+  "allowedSuiteIds": ["latency"]
+}

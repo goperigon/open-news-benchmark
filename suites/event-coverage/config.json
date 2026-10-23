@@ -1,0 +1,9 @@
+{
+  "anchorPollIntervalMs": 30000,
+  "preAnchorWindowMs": 1800000,
+  "probeOffsetsMinutes": [1, 2, 3, 5, 7, 10, 15, 20, 30, 45, 60, 90, 120, 180, 240, 360, 720, 1440],
+  "quickRunDurationMs": 7200000,
+  "defaultRunDurationMs": 604800000,
+  "relevanceJudgeMaxCandidates": 5,
+  "relevanceJudgeEnabled": false
+}

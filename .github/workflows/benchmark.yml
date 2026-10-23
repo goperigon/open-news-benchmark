@@ -1,0 +1,78 @@
+name: Benchmark
+
+# Manual, long-running benchmark. Watch live logs in the Actions tab;
+# the metrics table lands in the run summary and the SQLite DB + report
+# JSON are attached as artifacts. See suites/latency/METHODOLOGY.md.
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'smoke (~90 min, 200 articles) or full (~5h, 1000 articles)'
+        type: choice
+        options:
+          - smoke
+          - full
+        default: smoke
+      collection_ms:
+        description: 'Collection ceiling override in ms (blank = script default; full runs are capped so collection + 2h drain fits the 6h job limit)'
+        type: string
+        default: ''
+
+concurrency:
+  group: benchmark
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - run: bun install
+
+      - name: Write .env from secrets
+        run: |
+          {
+            echo "PERIGON_API_KEY=${{ secrets.PERIGON_API_KEY }}"
+            echo "BENCH_REGION=${{ vars.BENCH_REGION || 'us-east' }}"
+            echo "PERIGON_PLAN_TIER=${{ vars.PERIGON_PLAN_TIER || 'real-time' }}"
+          } >> .env
+
+      - name: Smoke test
+        if: inputs.mode == 'smoke'
+        env:
+          COLLECTION_MS: ${{ inputs.collection_ms }}
+        run: |
+          if [ -n "$COLLECTION_MS" ]; then export COLLECTION_MS; fi
+          ./scripts/run-smoke.sh
+
+      - name: Full benchmark
+        if: inputs.mode == 'full'
+        env:
+          COLLECTION_MS: ${{ inputs.collection_ms || '12600000' }}
+        run: ./scripts/run-latency.sh
+
+      - name: Render summary table
+        if: always()
+        run: python3 scripts/summarize-report.py >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload DB and reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-${{ inputs.mode }}-${{ github.run_id }}
+          path: |
+            results/*.json
+            results/audit-*.csv
+            data/*.db
+          if-no-files-found: warn
+          retention-days: 30

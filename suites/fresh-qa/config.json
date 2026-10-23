@@ -1,0 +1,14 @@
+{
+  "enabled": false,
+  "probeDelaysMinutes": [15, 60, 240],
+  "topKArticles": 10,
+  "maxQuestionsPerEvent": 2,
+  "article": {
+    "enabled": false,
+    "samplesPerHour": 30,
+    "languages": ["en"],
+    "minTextChars": 600,
+    "maxQuestionsPerArticle": 1,
+    "searchLookbackMinutes": 360
+  }
+}

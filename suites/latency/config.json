@@ -1,0 +1,13 @@
+{
+  "groundTruthPollIntervalMs": 30000,
+  "providerProbeIntervalMs": 60000,
+  "trackingWindowMs": 86400000,
+  "maxPublisherAgeMs": 7200000,
+  "domainBatchSize": 5,
+  "targetArticleCount": 1000,
+  "maxArticlesPerDomain": 50,
+  "latencyWindowMs": 3600000,
+  "coverageWindowMs": 7200000,
+  "quickRunDurationMs": 7200000,
+  "defaultRunDurationMs": 604800000
+}

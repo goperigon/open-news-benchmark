@@ -1,0 +1,14 @@
+{
+  "enabled": false,
+  "datasetFile": "freshqa.csv",
+  "datasetVersion": "2026-10-15",
+  "datasetSha256": "3769244f66bb2666fe5160c8cc235339b7c54c61fc88d360995aa91d4c904789",
+  "split": "TEST",
+  "lookbackDays": 30,
+  "topKArticles": 10,
+  "concurrencyPerProvider": 2,
+  "factTypes": [
+    "fast-changing"
+  ],
+  "includeFalsePremise": false
+}

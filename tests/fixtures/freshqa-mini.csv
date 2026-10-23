@@ -1,0 +1,4 @@
+FreshQA test slice
+question,answer_0,fact_type,split
+Who won the 2024 US presidential election?,Donald Trump,fast-changing,TEST
+What is 2+2?,4,never-changing,TEST

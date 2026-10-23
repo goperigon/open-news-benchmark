@@ -1,0 +1,6239 @@
+{
+  "schemaVersion": 1,
+  "snapshotDate": "2026-10-12",
+  "sampleSeed": 42,
+  "smallmidSampleSize": 300,
+  "companies": [
+    {
+      "ticker": "MMM",
+      "cik": "0000066740",
+      "name": "3M CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AOS",
+      "cik": "0000091142",
+      "name": "SMITH A O CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ABT",
+      "cik": "0000001800",
+      "name": "ABBOTT LABORATORIES",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ABBV",
+      "cik": "0001551152",
+      "name": "AbbVie Inc.",
+      "aliases": [
+        "AbbVie"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ACN",
+      "cik": "0001467373",
+      "name": "Accenture plc",
+      "aliases": [
+        "Accenture"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ADBE",
+      "cik": "0000796343",
+      "name": "ADOBE INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AMD",
+      "cik": "0000002488",
+      "name": "ADVANCED MICRO DEVICES INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AES",
+      "cik": "0000874761",
+      "name": "AES CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AFL",
+      "cik": "0000004977",
+      "name": "AFLAC INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "A",
+      "cik": "0001090872",
+      "name": "AGILENT TECHNOLOGIES, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "APD",
+      "cik": "0000002969",
+      "name": "Air Products & Chemicals, Inc.",
+      "aliases": [
+        "Air Products & Chemicals"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ABNB",
+      "cik": "0001559720",
+      "name": "Airbnb, Inc.",
+      "aliases": [
+        "Airbnb"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AKAM",
+      "cik": "0001086222",
+      "name": "AKAMAI TECHNOLOGIES INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ALB",
+      "cik": "0000915913",
+      "name": "ALBEMARLE CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ARE",
+      "cik": "0001035443",
+      "name": "ALEXANDRIA REAL ESTATE EQUITIES, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ALGN",
+      "cik": "0001097149",
+      "name": "ALIGN TECHNOLOGY INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ALLE",
+      "cik": "0001579241",
+      "name": "Allegion plc",
+      "aliases": [
+        "Allegion"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "LNT",
+      "cik": "0000352541",
+      "name": "ALLIANT ENERGY CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ALL",
+      "cik": "0000899051",
+      "name": "ALLSTATE CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "GOOGL",
+      "cik": "0001652044",
+      "name": "Alphabet Inc.",
+      "aliases": [
+        "Alphabet"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "GOOG",
+      "cik": "0001652044",
+      "name": "Alphabet Inc.",
+      "aliases": [
+        "Alphabet"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MO",
+      "cik": "0000764180",
+      "name": "ALTRIA GROUP, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AMZN",
+      "cik": "0001018724",
+      "name": "AMAZON COM INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AMCR",
+      "cik": "0001748790",
+      "name": "Amcor plc",
+      "aliases": [
+        "Amcor"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AEE",
+      "cik": "0001002910",
+      "name": "AMEREN CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AEP",
+      "cik": "0000004904",
+      "name": "AMERICAN ELECTRIC POWER CO INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AXP",
+      "cik": "0000004962",
+      "name": "AMERICAN EXPRESS CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AIG",
+      "cik": "0000005272",
+      "name": "AMERICAN INTERNATIONAL GROUP, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AMT",
+      "cik": "0001053507",
+      "name": "AMERICAN TOWER CORP /MA/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AWK",
+      "cik": "0001410636",
+      "name": "American Water Works Company, Inc.",
+      "aliases": [
+        "American Water Works Company"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AMP",
+      "cik": "0000820027",
+      "name": "AMERIPRISE FINANCIAL INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AME",
+      "cik": "0001037868",
+      "name": "AMETEK INC/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AMGN",
+      "cik": "0000318154",
+      "name": "AMGEN INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "APH",
+      "cik": "0000820313",
+      "name": "AMPHENOL CORP /DE/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ADI",
+      "cik": "0000006281",
+      "name": "ANALOG DEVICES INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AON",
+      "cik": "0000315293",
+      "name": "Aon plc",
+      "aliases": [
+        "Aon"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "APA",
+      "cik": "0001841666",
+      "name": "APA Corp",
+      "aliases": [
+        "APA"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "APO",
+      "cik": "0001858681",
+      "name": "Apollo Global Management, Inc.",
+      "aliases": [
+        "Apollo Global Management"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AAPL",
+      "cik": "0000320193",
+      "name": "Apple Inc.",
+      "aliases": [
+        "Apple"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AMAT",
+      "cik": "0000006951",
+      "name": "APPLIED MATERIALS INC /DE",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "APP",
+      "cik": "0001751008",
+      "name": "AppLovin Corp",
+      "aliases": [
+        "AppLovin"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "APTV",
+      "cik": "0001521332",
+      "name": "Aptiv PLC",
+      "aliases": [
+        "Aptiv"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ACGL",
+      "cik": "0000947484",
+      "name": "ARCH CAPITAL GROUP LTD.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ADM",
+      "cik": "0000007084",
+      "name": "Archer-Daniels-Midland Co",
+      "aliases": [
+        "Archer-Daniels-Midland"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ARES",
+      "cik": "0001176948",
+      "name": "Ares Management Corp",
+      "aliases": [
+        "Ares Management"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ANET",
+      "cik": "0001596532",
+      "name": "Arista Networks, Inc.",
+      "aliases": [
+        "Arista Networks"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AJG",
+      "cik": "0000354190",
+      "name": "Arthur J. Gallagher & Co.",
+      "aliases": [
+        "Arthur J. Gallagher &"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AIZ",
+      "cik": "0001267238",
+      "name": "ASSURANT, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "T",
+      "cik": "0000732717",
+      "name": "AT&T INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ATO",
+      "cik": "0000731802",
+      "name": "ATMOS ENERGY CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ADSK",
+      "cik": "0000769397",
+      "name": "Autodesk, Inc.",
+      "aliases": [
+        "Autodesk"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ADP",
+      "cik": "0000008670",
+      "name": "AUTOMATIC DATA PROCESSING INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AZO",
+      "cik": "0000866787",
+      "name": "AUTOZONE INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AVY",
+      "cik": "0000008818",
+      "name": "Avery Dennison Corp",
+      "aliases": [
+        "Avery Dennison"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AXON",
+      "cik": "0001069183",
+      "name": "AXON ENTERPRISE, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BKR",
+      "cik": "0001701605",
+      "name": "Baker Hughes Co",
+      "aliases": [
+        "Baker Hughes"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BALL",
+      "cik": "0000009389",
+      "name": "BALL Corp",
+      "aliases": [
+        "BALL"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BAC",
+      "cik": "0000070858",
+      "name": "BANK OF AMERICA CORP /DE/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BAX",
+      "cik": "0000010456",
+      "name": "BAXTER INTERNATIONAL INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BDX",
+      "cik": "0000010795",
+      "name": "BECTON DICKINSON & CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BBY",
+      "cik": "0000764478",
+      "name": "BEST BUY CO INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TECH",
+      "cik": "0000842023",
+      "name": "BIO-TECHNE Corp",
+      "aliases": [
+        "BIO-TECHNE"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BIIB",
+      "cik": "0000875045",
+      "name": "BIOGEN INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BLK",
+      "cik": "0002012383",
+      "name": "BlackRock, Inc.",
+      "aliases": [
+        "BlackRock"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BX",
+      "cik": "0001393818",
+      "name": "Blackstone Inc.",
+      "aliases": [
+        "Blackstone"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "XYZ",
+      "cik": "0001512673",
+      "name": "Block, Inc.",
+      "aliases": [
+        "Block"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BE",
+      "cik": "0001664703",
+      "name": "Bloom Energy Corp",
+      "aliases": [
+        "Bloom Energy"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BNY",
+      "cik": "0001390777",
+      "name": "Bank of New York Mellon Corp",
+      "aliases": [
+        "Bank of New York Mellon"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BA",
+      "cik": "0000012927",
+      "name": "BOEING CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BKNG",
+      "cik": "0001075531",
+      "name": "Booking Holdings Inc.",
+      "aliases": [
+        "Booking Holdings"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BSX",
+      "cik": "0000885725",
+      "name": "BOSTON SCIENTIFIC CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BMY",
+      "cik": "0000014272",
+      "name": "BRISTOL MYERS SQUIBB CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "AVGO",
+      "cik": "0001730168",
+      "name": "Broadcom Inc.",
+      "aliases": [
+        "Broadcom"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BR",
+      "cik": "0001383312",
+      "name": "BROADRIDGE FINANCIAL SOLUTIONS, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BRO",
+      "cik": "0000079282",
+      "name": "BROWN & BROWN, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BG",
+      "cik": "0001996862",
+      "name": "Bunge Global SA",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BXP",
+      "cik": "0001037540",
+      "name": "BXP, Inc.",
+      "aliases": [
+        "BXP"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CHRW",
+      "cik": "0001043277",
+      "name": "C. H. ROBINSON WORLDWIDE, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CDNS",
+      "cik": "0000813672",
+      "name": "CADENCE DESIGN SYSTEMS INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CPT",
+      "cik": "0000906345",
+      "name": "CAMDEN PROPERTY TRUST",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "COF",
+      "cik": "0000927628",
+      "name": "CAPITAL ONE FINANCIAL CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CAH",
+      "cik": "0000721371",
+      "name": "CARDINAL HEALTH INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CCL",
+      "cik": "0000815097",
+      "name": "Carnival Corp Ltd.",
+      "aliases": [
+        "Carnival Corp"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CARR",
+      "cik": "0001783180",
+      "name": "CARRIER GLOBAL Corp",
+      "aliases": [
+        "CARRIER GLOBAL"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CVNA",
+      "cik": "0001690820",
+      "name": "CARVANA CO.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CASY",
+      "cik": "0000726958",
+      "name": "CASEYS GENERAL STORES INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CAT",
+      "cik": "0000018230",
+      "name": "CATERPILLAR INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CBOE",
+      "cik": "0001374310",
+      "name": "Cboe Global Markets, Inc.",
+      "aliases": [
+        "Cboe Global Markets"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CBRE",
+      "cik": "0001138118",
+      "name": "CBRE GROUP, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CDW",
+      "cik": "0001402057",
+      "name": "CDW Corp",
+      "aliases": [
+        "CDW"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "COR",
+      "cik": "0001140859",
+      "name": "Cencora, Inc.",
+      "aliases": [
+        "Cencora"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CNC",
+      "cik": "0001071739",
+      "name": "CENTENE CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CNP",
+      "cik": "0001130310",
+      "name": "CENTERPOINT ENERGY INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CF",
+      "cik": "0001324404",
+      "name": "CF Industries Holdings, Inc.",
+      "aliases": [
+        "CF Industries Holdings"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CRL",
+      "cik": "0001100682",
+      "name": "CHARLES RIVER LABORATORIES INTERNATIONAL, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SCHW",
+      "cik": "0000316709",
+      "name": "SCHWAB CHARLES CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CHTR",
+      "cik": "0001091667",
+      "name": "CHARTER COMMUNICATIONS, INC. /MO/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CVX",
+      "cik": "0000093410",
+      "name": "CHEVRON CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CMG",
+      "cik": "0001058090",
+      "name": "CHIPOTLE MEXICAN GRILL INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CB",
+      "cik": "0000896159",
+      "name": "Chubb Ltd",
+      "aliases": [
+        "Chubb"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CHD",
+      "cik": "0000313927",
+      "name": "CHURCH & DWIGHT CO INC /DE/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CIEN",
+      "cik": "0000936395",
+      "name": "CIENA CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CI",
+      "cik": "0001739940",
+      "name": "Cigna Group",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CINF",
+      "cik": "0000020286",
+      "name": "CINCINNATI FINANCIAL CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CTAS",
+      "cik": "0000723254",
+      "name": "CINTAS CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CSCO",
+      "cik": "0000858877",
+      "name": "CISCO SYSTEMS, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "C",
+      "cik": "0000831001",
+      "name": "CITIGROUP INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CFG",
+      "cik": "0000759944",
+      "name": "CITIZENS FINANCIAL GROUP INC/RI",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CLX",
+      "cik": "0000021076",
+      "name": "CLOROX CO /DE/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CME",
+      "cik": "0001156375",
+      "name": "CME GROUP INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CMS",
+      "cik": "0000811156",
+      "name": "CMS ENERGY CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "KO",
+      "cik": "0000021344",
+      "name": "COCA COLA CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CTSH",
+      "cik": "0001058290",
+      "name": "COGNIZANT TECHNOLOGY SOLUTIONS CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "COHR",
+      "cik": "0000820318",
+      "name": "COHERENT CORP.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "COIN",
+      "cik": "0001679788",
+      "name": "Coinbase Global, Inc.",
+      "aliases": [
+        "Coinbase Global"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CL",
+      "cik": "0000021665",
+      "name": "COLGATE PALMOLIVE CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CMCSA",
+      "cik": "0001166691",
+      "name": "COMCAST CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FIX",
+      "cik": "0001035983",
+      "name": "COMFORT SYSTEMS USA INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "COP",
+      "cik": "0001163165",
+      "name": "CONOCOPHILLIPS",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ED",
+      "cik": "0001047862",
+      "name": "CONSOLIDATED EDISON INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "STZ",
+      "cik": "0000016918",
+      "name": "CONSTELLATION BRANDS, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CEG",
+      "cik": "0001868275",
+      "name": "Constellation Energy Corp",
+      "aliases": [
+        "Constellation Energy"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "COO",
+      "cik": "0000711404",
+      "name": "COOPER COMPANIES, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CPRT",
+      "cik": "0000900075",
+      "name": "COPART INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "GLW",
+      "cik": "0000024741",
+      "name": "CORNING INC /NY",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CPAY",
+      "cik": "0001175454",
+      "name": "CORPAY, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CSGP",
+      "cik": "0001057352",
+      "name": "COSTAR GROUP, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "COST",
+      "cik": "0000909832",
+      "name": "COSTCO WHOLESALE CORP /NEW",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CRH",
+      "cik": "0000849395",
+      "name": "CRH PUBLIC LTD CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CRWD",
+      "cik": "0001535527",
+      "name": "CrowdStrike Holdings, Inc.",
+      "aliases": [
+        "CrowdStrike Holdings"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CCI",
+      "cik": "0001051470",
+      "name": "CROWN CASTLE INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CSX",
+      "cik": "0000277948",
+      "name": "CSX CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CMI",
+      "cik": "0000026172",
+      "name": "CUMMINS INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CVS",
+      "cik": "0000064803",
+      "name": "CVS HEALTH Corp",
+      "aliases": [
+        "CVS HEALTH"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DHR",
+      "cik": "0000313616",
+      "name": "DANAHER CORP /DE/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DRI",
+      "cik": "0000940944",
+      "name": "DARDEN RESTAURANTS INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DDOG",
+      "cik": "0001561550",
+      "name": "Datadog, Inc.",
+      "aliases": [
+        "Datadog"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DVA",
+      "cik": "0000927066",
+      "name": "DAVITA INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DECK",
+      "cik": "0000910521",
+      "name": "DECKERS OUTDOOR CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DE",
+      "cik": "0000315189",
+      "name": "DEERE & CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DELL",
+      "cik": "0001571996",
+      "name": "Dell Technologies Inc.",
+      "aliases": [
+        "Dell Technologies"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DAL",
+      "cik": "0000027904",
+      "name": "DELTA AIR LINES, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DVN",
+      "cik": "0001090012",
+      "name": "DEVON ENERGY CORP/DE",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DXCM",
+      "cik": "0001093557",
+      "name": "DEXCOM INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FANG",
+      "cik": "0001539838",
+      "name": "Diamondback Energy, Inc.",
+      "aliases": [
+        "Diamondback Energy"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DLR",
+      "cik": "0001297996",
+      "name": "DIGITAL REALTY TRUST, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DG",
+      "cik": "0000029534",
+      "name": "DOLLAR GENERAL CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DLTR",
+      "cik": "0000935703",
+      "name": "DOLLAR TREE, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "D",
+      "cik": "0000715957",
+      "name": "DOMINION ENERGY, INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DPZ",
+      "cik": "0001286681",
+      "name": "DOMINOS PIZZA INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DASH",
+      "cik": "0001792789",
+      "name": "DoorDash, Inc.",
+      "aliases": [
+        "DoorDash"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DOV",
+      "cik": "0000029905",
+      "name": "DOVER Corp",
+      "aliases": [
+        "DOVER"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DOW",
+      "cik": "0001751788",
+      "name": "DOW INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DHI",
+      "cik": "0000882184",
+      "name": "HORTON D R INC /DE/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DTE",
+      "cik": "0000936340",
+      "name": "DTE ENERGY CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DUK",
+      "cik": "0001326160",
+      "name": "Duke Energy CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DD",
+      "cik": "0001666700",
+      "name": "DuPont de Nemours, Inc.",
+      "aliases": [
+        "DuPont de Nemours"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ETN",
+      "cik": "0001551182",
+      "name": "Eaton Corp plc",
+      "aliases": [
+        "Eaton Corp"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "EBAY",
+      "cik": "0001065088",
+      "name": "EBAY INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ECHO",
+      "cik": "0001415404",
+      "name": "EchoStar CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ECL",
+      "cik": "0000031462",
+      "name": "ECOLAB INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "EIX",
+      "cik": "0000827052",
+      "name": "EDISON INTERNATIONAL",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "EW",
+      "cik": "0001099800",
+      "name": "Edwards Lifesciences Corp",
+      "aliases": [
+        "Edwards Lifesciences"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ELV",
+      "cik": "0001156039",
+      "name": "Elevance Health, Inc.",
+      "aliases": [
+        "Elevance Health"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "EME",
+      "cik": "0000105634",
+      "name": "EMCOR Group, Inc.",
+      "aliases": [
+        "EMCOR Group"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "EMR",
+      "cik": "0000032604",
+      "name": "EMERSON ELECTRIC CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ETR",
+      "cik": "0000065984",
+      "name": "ENTERGY CORP /DE/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "EOG",
+      "cik": "0000821189",
+      "name": "EOG RESOURCES INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "EQT",
+      "cik": "0000033213",
+      "name": "EQT Corp",
+      "aliases": [
+        "EQT"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "EFX",
+      "cik": "0000033185",
+      "name": "EQUIFAX INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "EQIX",
+      "cik": "0001101239",
+      "name": "EQUINIX INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ERIE",
+      "cik": "0000922621",
+      "name": "ERIE INDEMNITY CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ESS",
+      "cik": "0000920522",
+      "name": "ESSEX PROPERTY TRUST, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "EL",
+      "cik": "0001001250",
+      "name": "ESTEE LAUDER COMPANIES INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "EG",
+      "cik": "0001095073",
+      "name": "EVEREST GROUP, LTD.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "EVRG",
+      "cik": "0001711269",
+      "name": "Evergy, Inc.",
+      "aliases": [
+        "Evergy"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "P",
+      "cik": "0001474432",
+      "name": "Everpure, Inc.",
+      "aliases": [
+        "Everpure"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ES",
+      "cik": "0000072741",
+      "name": "EVERSOURCE ENERGY",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "EXC",
+      "cik": "0001109357",
+      "name": "EXELON CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "EXE",
+      "cik": "0000895126",
+      "name": "EXPAND ENERGY Corp",
+      "aliases": [
+        "EXPAND ENERGY"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "EXPE",
+      "cik": "0001324424",
+      "name": "Expedia Group, Inc.",
+      "aliases": [
+        "Expedia Group"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "EXPD",
+      "cik": "0000746515",
+      "name": "EXPEDITORS INTERNATIONAL OF WASHINGTON INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "EXR",
+      "cik": "0001289490",
+      "name": "Extra Space Storage Inc.",
+      "aliases": [
+        "Extra Space Storage"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "XOM",
+      "cik": "0002115436",
+      "name": "ExxonMobil Holdings Corp",
+      "aliases": [
+        "ExxonMobil Holdings"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FFIV",
+      "cik": "0001048695",
+      "name": "F5, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FDS",
+      "cik": "0001013237",
+      "name": "FACTSET RESEARCH SYSTEMS INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FICO",
+      "cik": "0000814547",
+      "name": "FAIR ISAAC CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FAST",
+      "cik": "0000815556",
+      "name": "FASTENAL CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FRT",
+      "cik": "0000034903",
+      "name": "FEDERAL REALTY INVESTMENT TRUST",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FDX",
+      "cik": "0001048911",
+      "name": "FEDEX CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FDXF",
+      "cik": "0002082247",
+      "name": "FedEx Freight Holding Company, Inc.",
+      "aliases": [
+        "FedEx Freight Holding Company"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FERG",
+      "cik": "0002011641",
+      "name": "Ferguson Enterprises Inc. /DE/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FIS",
+      "cik": "0001136893",
+      "name": "Fidelity National Information Services, Inc.",
+      "aliases": [
+        "Fidelity National Information Services"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FITB",
+      "cik": "0000035527",
+      "name": "FIFTH THIRD BANCORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FSLR",
+      "cik": "0001274494",
+      "name": "FIRST SOLAR, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FE",
+      "cik": "0001031296",
+      "name": "FIRSTENERGY CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FISV",
+      "cik": "0000798354",
+      "name": "FISERV INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FLEX",
+      "cik": "0000866374",
+      "name": "FLEX LTD.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "F",
+      "cik": "0000037996",
+      "name": "FORD MOTOR CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FTNT",
+      "cik": "0001262039",
+      "name": "Fortinet, Inc.",
+      "aliases": [
+        "Fortinet"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FTV",
+      "cik": "0001659166",
+      "name": "Fortive Corp",
+      "aliases": [
+        "Fortive"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FOXA",
+      "cik": "0001754301",
+      "name": "Fox Corp",
+      "aliases": [
+        "Fox"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FOX",
+      "cik": "0001754301",
+      "name": "Fox Corp",
+      "aliases": [
+        "Fox"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "BEN",
+      "cik": "0000038777",
+      "name": "FRANKLIN TEMPLETON INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "FCX",
+      "cik": "0000831259",
+      "name": "FREEPORT-MCMORAN INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "GRMN",
+      "cik": "0001121788",
+      "name": "GARMIN LTD",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "IT",
+      "cik": "0000749251",
+      "name": "GARTNER INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "GE",
+      "cik": "0000040545",
+      "name": "GENERAL ELECTRIC CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "GEHC",
+      "cik": "0001932393",
+      "name": "GE HealthCare Technologies Inc.",
+      "aliases": [
+        "GE HealthCare Technologies"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "GEV",
+      "cik": "0001996810",
+      "name": "GE Vernova Inc.",
+      "aliases": [
+        "GE Vernova"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "GEN",
+      "cik": "0000849399",
+      "name": "Gen Digital Inc.",
+      "aliases": [
+        "Gen Digital"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "GNRC",
+      "cik": "0001474735",
+      "name": "GENERAC HOLDINGS INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "GD",
+      "cik": "0000040533",
+      "name": "GENERAL DYNAMICS CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "GIS",
+      "cik": "0000040704",
+      "name": "GENERAL MILLS INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "GM",
+      "cik": "0001467858",
+      "name": "General Motors Co",
+      "aliases": [
+        "General Motors"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "GPC",
+      "cik": "0000040987",
+      "name": "GENUINE PARTS CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "GILD",
+      "cik": "0000882095",
+      "name": "GILEAD SCIENCES, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "GPN",
+      "cik": "0001123360",
+      "name": "GLOBAL PAYMENTS INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "GL",
+      "cik": "0000320335",
+      "name": "GLOBE LIFE INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "GDDY",
+      "cik": "0001609711",
+      "name": "GoDaddy Inc.",
+      "aliases": [
+        "GoDaddy"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "GS",
+      "cik": "0000886982",
+      "name": "GOLDMAN SACHS GROUP INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HAL",
+      "cik": "0000045012",
+      "name": "HALLIBURTON CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HIG",
+      "cik": "0000874766",
+      "name": "HARTFORD INSURANCE GROUP, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HAS",
+      "cik": "0000046080",
+      "name": "HASBRO, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HCA",
+      "cik": "0000860730",
+      "name": "HCA Healthcare, Inc.",
+      "aliases": [
+        "HCA Healthcare"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DOC",
+      "cik": "0000765880",
+      "name": "HEALTHPEAK PROPERTIES, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HSIC",
+      "cik": "0001000228",
+      "name": "HENRY SCHEIN INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HSY",
+      "cik": "0000047111",
+      "name": "HERSHEY CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HPE",
+      "cik": "0001645590",
+      "name": "Hewlett Packard Enterprise Co",
+      "aliases": [
+        "Hewlett Packard Enterprise"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HLT",
+      "cik": "0001585689",
+      "name": "Hilton Worldwide Holdings Inc.",
+      "aliases": [
+        "Hilton Worldwide Holdings"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HD",
+      "cik": "0000354950",
+      "name": "HOME DEPOT, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HONA",
+      "cik": "0002089271",
+      "name": "Honeywell Aerospace Inc.",
+      "aliases": [
+        "Honeywell Aerospace"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HON",
+      "cik": "0000773840",
+      "name": "HONEYWELL INTERNATIONAL INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HRL",
+      "cik": "0000048465",
+      "name": "HORMEL FOODS CORP /DE/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HST",
+      "cik": "0001070750",
+      "name": "HOST HOTELS & RESORTS, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HWM",
+      "cik": "0000004281",
+      "name": "Howmet Aerospace Inc.",
+      "aliases": [
+        "Howmet Aerospace"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HPQ",
+      "cik": "0000047217",
+      "name": "HP INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HUBB",
+      "cik": "0000048898",
+      "name": "HUBBELL INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HUM",
+      "cik": "0000049071",
+      "name": "HUMANA INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HBAN",
+      "cik": "0000049196",
+      "name": "HUNTINGTON BANCSHARES INC /MD/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HII",
+      "cik": "0001501585",
+      "name": "HUNTINGTON INGALLS INDUSTRIES, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "IBM",
+      "cik": "0000051143",
+      "name": "INTERNATIONAL BUSINESS MACHINES CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "IEX",
+      "cik": "0000832101",
+      "name": "IDEX CORP /DE/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "IDXX",
+      "cik": "0000874716",
+      "name": "IDEXX LABORATORIES INC /DE",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ITW",
+      "cik": "0000049826",
+      "name": "ILLINOIS TOOL WORKS INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ILMN",
+      "cik": "0001110803",
+      "name": "ILLUMINA, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "INCY",
+      "cik": "0000879169",
+      "name": "INCYTE CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "IR",
+      "cik": "0001699150",
+      "name": "Ingersoll Rand Inc.",
+      "aliases": [
+        "Ingersoll Rand"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PODD",
+      "cik": "0001145197",
+      "name": "INSULET CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "INTC",
+      "cik": "0000050863",
+      "name": "INTEL CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "IBKR",
+      "cik": "0001381197",
+      "name": "Interactive Brokers Group, Inc.",
+      "aliases": [
+        "Interactive Brokers Group"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ICE",
+      "cik": "0001571949",
+      "name": "Intercontinental Exchange, Inc.",
+      "aliases": [
+        "Intercontinental Exchange"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "IFF",
+      "cik": "0000051253",
+      "name": "INTERNATIONAL FLAVORS & FRAGRANCES INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "IP",
+      "cik": "0000051434",
+      "name": "INTERNATIONAL PAPER CO /NEW/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "INTU",
+      "cik": "0000896878",
+      "name": "INTUIT INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ISRG",
+      "cik": "0001035267",
+      "name": "INTUITIVE SURGICAL INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "IVZ",
+      "cik": "0000914208",
+      "name": "Invesco Ltd.",
+      "aliases": [
+        "Invesco"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "INVH",
+      "cik": "0001687229",
+      "name": "Invitation Homes Inc.",
+      "aliases": [
+        "Invitation Homes"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "IQV",
+      "cik": "0001478242",
+      "name": "IQVIA HOLDINGS INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "IRM",
+      "cik": "0001020569",
+      "name": "IRON MOUNTAIN INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "JBHT",
+      "cik": "0000728535",
+      "name": "HUNT J B TRANSPORT SERVICES INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "JBL",
+      "cik": "0000898293",
+      "name": "JABIL INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "JKHY",
+      "cik": "0000779152",
+      "name": "JACK HENRY & ASSOCIATES INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "J",
+      "cik": "0000052988",
+      "name": "JACOBS SOLUTIONS INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "JNJ",
+      "cik": "0000200406",
+      "name": "JOHNSON & JOHNSON",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "JCI",
+      "cik": "0000833444",
+      "name": "Johnson Controls International plc",
+      "aliases": [
+        "Johnson Controls International"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "JPM",
+      "cik": "0000019617",
+      "name": "JPMORGAN CHASE & CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "KVUE",
+      "cik": "0001944048",
+      "name": "Kenvue Inc.",
+      "aliases": [
+        "Kenvue"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "KDP",
+      "cik": "0001418135",
+      "name": "Keurig Dr Pepper Inc.",
+      "aliases": [
+        "Keurig Dr Pepper"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "KEY",
+      "cik": "0000091576",
+      "name": "KEYCORP /NEW/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "KEYS",
+      "cik": "0001601046",
+      "name": "Keysight Technologies, Inc.",
+      "aliases": [
+        "Keysight Technologies"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "KMB",
+      "cik": "0000055785",
+      "name": "KIMBERLY CLARK CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "KIM",
+      "cik": "0000879101",
+      "name": "KIMCO REALTY CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "KMI",
+      "cik": "0001506307",
+      "name": "KINDER MORGAN, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "KKR",
+      "cik": "0001404912",
+      "name": "KKR & Co. Inc.",
+      "aliases": [
+        "KKR & Co."
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "KLAC",
+      "cik": "0000319201",
+      "name": "KLA CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "KHC",
+      "cik": "0001637459",
+      "name": "Kraft Heinz Co",
+      "aliases": [
+        "Kraft Heinz"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "KR",
+      "cik": "0000056873",
+      "name": "KROGER CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "LHX",
+      "cik": "0000202058",
+      "name": "L3HARRIS TECHNOLOGIES, INC. /DE/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "LH",
+      "cik": "0000920148",
+      "name": "LABCORP HOLDINGS INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "LRCX",
+      "cik": "0000707549",
+      "name": "LAM RESEARCH CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "LVS",
+      "cik": "0001300514",
+      "name": "LAS VEGAS SANDS CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "LDOS",
+      "cik": "0001336920",
+      "name": "Leidos Holdings, Inc.",
+      "aliases": [
+        "Leidos Holdings"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "LEN",
+      "cik": "0000920760",
+      "name": "LENNAR CORP /NEW/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "LII",
+      "cik": "0001069202",
+      "name": "LENNOX INTERNATIONAL INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "LLY",
+      "cik": "0000059478",
+      "name": "ELI LILLY & Co",
+      "aliases": [
+        "ELI LILLY &"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "LIN",
+      "cik": "0001707925",
+      "name": "LINDE PLC",
+      "aliases": [
+        "LINDE"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "LYV",
+      "cik": "0001335258",
+      "name": "Live Nation Entertainment, Inc.",
+      "aliases": [
+        "Live Nation Entertainment"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "LMT",
+      "cik": "0000936468",
+      "name": "LOCKHEED MARTIN CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "L",
+      "cik": "0000060086",
+      "name": "LOEWS CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "LOW",
+      "cik": "0000060667",
+      "name": "LOWES COMPANIES INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "LULU",
+      "cik": "0001397187",
+      "name": "lululemon athletica inc.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "LITE",
+      "cik": "0001633978",
+      "name": "Lumentum Holdings Inc.",
+      "aliases": [
+        "Lumentum Holdings"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "LYB",
+      "cik": "0001489393",
+      "name": "LyondellBasell Industries N.V.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MTB",
+      "cik": "0000036270",
+      "name": "M&T BANK CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MPC",
+      "cik": "0001510295",
+      "name": "Marathon Petroleum Corp",
+      "aliases": [
+        "Marathon Petroleum"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MAR",
+      "cik": "0001048286",
+      "name": "MARRIOTT INTERNATIONAL INC /MD/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MRSH",
+      "cik": "0000062709",
+      "name": "MARSH & MCLENNAN COMPANIES, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MLM",
+      "cik": "0000916076",
+      "name": "MARTIN MARIETTA MATERIALS INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MRVL",
+      "cik": "0001835632",
+      "name": "Marvell Technology, Inc.",
+      "aliases": [
+        "Marvell Technology"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MAS",
+      "cik": "0000062996",
+      "name": "MASCO CORP /DE/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MA",
+      "cik": "0001141391",
+      "name": "Mastercard Inc",
+      "aliases": [
+        "Mastercard"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MKC",
+      "cik": "0000063754",
+      "name": "MCCORMICK & CO INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MCD",
+      "cik": "0000063908",
+      "name": "MCDONALDS CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MCK",
+      "cik": "0000927653",
+      "name": "MCKESSON CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MDT",
+      "cik": "0001613103",
+      "name": "Medtronic plc",
+      "aliases": [
+        "Medtronic"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MRK",
+      "cik": "0000310158",
+      "name": "Merck & Co., Inc.",
+      "aliases": [
+        "Merck & Co."
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "META",
+      "cik": "0001326801",
+      "name": "Meta Platforms, Inc.",
+      "aliases": [
+        "Meta Platforms"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MET",
+      "cik": "0001099219",
+      "name": "METLIFE INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MTD",
+      "cik": "0001037646",
+      "name": "METTLER TOLEDO INTERNATIONAL INC/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MGM",
+      "cik": "0000789570",
+      "name": "MGM Resorts International",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MCHP",
+      "cik": "0000827054",
+      "name": "MICROCHIP TECHNOLOGY INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MU",
+      "cik": "0000723125",
+      "name": "MICRON TECHNOLOGY INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MSFT",
+      "cik": "0000789019",
+      "name": "MICROSOFT CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MAA",
+      "cik": "0000912595",
+      "name": "MID AMERICA APARTMENT COMMUNITIES INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MRNA",
+      "cik": "0001682852",
+      "name": "Moderna, Inc.",
+      "aliases": [
+        "Moderna"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MDLZ",
+      "cik": "0001103982",
+      "name": "Mondelez International, Inc.",
+      "aliases": [
+        "Mondelez International"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MPWR",
+      "cik": "0001280452",
+      "name": "MONOLITHIC POWER SYSTEMS, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MNST",
+      "cik": "0000865752",
+      "name": "Monster Beverage Corp",
+      "aliases": [
+        "Monster Beverage"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MCO",
+      "cik": "0001059556",
+      "name": "MOODYS CORP /DE/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MS",
+      "cik": "0000895421",
+      "name": "MORGAN STANLEY",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MOS",
+      "cik": "0001285785",
+      "name": "MOSAIC CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MSI",
+      "cik": "0000068505",
+      "name": "Motorola Solutions, Inc.",
+      "aliases": [
+        "Motorola Solutions"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "MSCI",
+      "cik": "0001408198",
+      "name": "MSCI Inc.",
+      "aliases": [
+        "MSCI"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NDAQ",
+      "cik": "0001120193",
+      "name": "NASDAQ, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NTAP",
+      "cik": "0001002047",
+      "name": "NetApp, Inc.",
+      "aliases": [
+        "NetApp"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NFLX",
+      "cik": "0001065280",
+      "name": "NETFLIX INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NEM",
+      "cik": "0001164727",
+      "name": "NEWMONT Corp /DE/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NWSA",
+      "cik": "0001564708",
+      "name": "NEWS CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NWS",
+      "cik": "0001564708",
+      "name": "NEWS CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NEE",
+      "cik": "0000753308",
+      "name": "NEXTERA ENERGY INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NKE",
+      "cik": "0000320187",
+      "name": "NIKE, Inc.",
+      "aliases": [
+        "NIKE"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NI",
+      "cik": "0001111711",
+      "name": "NISOURCE INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NDSN",
+      "cik": "0000072331",
+      "name": "NORDSON CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NSC",
+      "cik": "0000702165",
+      "name": "NORFOLK SOUTHERN CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NTRS",
+      "cik": "0000073124",
+      "name": "NORTHERN TRUST CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NOC",
+      "cik": "0001133421",
+      "name": "NORTHROP GRUMMAN CORP /DE/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NCLH",
+      "cik": "0001513761",
+      "name": "Norwegian Cruise Line Holdings Ltd.",
+      "aliases": [
+        "Norwegian Cruise Line Holdings"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NRG",
+      "cik": "0001013871",
+      "name": "NRG ENERGY, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NUE",
+      "cik": "0000073309",
+      "name": "NUCOR CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NVDA",
+      "cik": "0001045810",
+      "name": "NVIDIA CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NVR",
+      "cik": "0000906163",
+      "name": "NVR INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NXPI",
+      "cik": "0001413447",
+      "name": "NXP Semiconductors N.V.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ORLY",
+      "cik": "0000898173",
+      "name": "O REILLY AUTOMOTIVE INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "OXY",
+      "cik": "0000797468",
+      "name": "OCCIDENTAL PETROLEUM CORP /DE/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ODFL",
+      "cik": "0000878927",
+      "name": "OLD DOMINION FREIGHT LINE, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "OMC",
+      "cik": "0000029989",
+      "name": "OMNICOM GROUP INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ON",
+      "cik": "0001097864",
+      "name": "ON SEMICONDUCTOR CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "OKE",
+      "cik": "0001039684",
+      "name": "ONEOK INC /NEW/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ORCL",
+      "cik": "0001341439",
+      "name": "ORACLE CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "OTIS",
+      "cik": "0001781335",
+      "name": "Otis Worldwide Corp",
+      "aliases": [
+        "Otis Worldwide"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PCAR",
+      "cik": "0000075362",
+      "name": "PACCAR INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PKG",
+      "cik": "0000075677",
+      "name": "PACKAGING CORP OF AMERICA",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PLTR",
+      "cik": "0001321655",
+      "name": "Palantir Technologies Inc.",
+      "aliases": [
+        "Palantir Technologies"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PANW",
+      "cik": "0001327567",
+      "name": "Palo Alto Networks Inc",
+      "aliases": [
+        "Palo Alto Networks"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PH",
+      "cik": "0000076334",
+      "name": "Parker-Hannifin Corp",
+      "aliases": [
+        "Parker-Hannifin"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PAYX",
+      "cik": "0000723531",
+      "name": "PAYCHEX INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PYPL",
+      "cik": "0001633917",
+      "name": "PayPal Holdings, Inc.",
+      "aliases": [
+        "PayPal Holdings"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PNR",
+      "cik": "0000077360",
+      "name": "PENTAIR plc",
+      "aliases": [
+        "PENTAIR"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PEP",
+      "cik": "0000077476",
+      "name": "PEPSICO INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PFE",
+      "cik": "0000078003",
+      "name": "PFIZER INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PCG",
+      "cik": "0001004980",
+      "name": "PG&E Corp",
+      "aliases": [
+        "PG&E"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PM",
+      "cik": "0001413329",
+      "name": "Philip Morris International Inc.",
+      "aliases": [
+        "Philip Morris International"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PSX",
+      "cik": "0001534701",
+      "name": "Phillips 66",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PNW",
+      "cik": "0000764622",
+      "name": "PINNACLE WEST CAPITAL CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PNC",
+      "cik": "0000713676",
+      "name": "PNC FINANCIAL SERVICES GROUP, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PPG",
+      "cik": "0000079879",
+      "name": "PPG INDUSTRIES INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PPL",
+      "cik": "0000922224",
+      "name": "PPL Corp",
+      "aliases": [
+        "PPL"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PFG",
+      "cik": "0001126328",
+      "name": "PRINCIPAL FINANCIAL GROUP INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PG",
+      "cik": "0000080424",
+      "name": "PROCTER & GAMBLE Co",
+      "aliases": [
+        "PROCTER & GAMBLE"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PGR",
+      "cik": "0000080661",
+      "name": "PROGRESSIVE CORP/OH/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PLD",
+      "cik": "0001045609",
+      "name": "Prologis, Inc.",
+      "aliases": [
+        "Prologis"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PRU",
+      "cik": "0001137774",
+      "name": "PRUDENTIAL FINANCIAL INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PEG",
+      "cik": "0000788784",
+      "name": "PUBLIC SERVICE ENTERPRISE GROUP INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PTC",
+      "cik": "0000857005",
+      "name": "PTC INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PSA",
+      "cik": "0001393311",
+      "name": "Public Storage",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PHM",
+      "cik": "0000822416",
+      "name": "PULTEGROUP INC/MI/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "PWR",
+      "cik": "0001050915",
+      "name": "QUANTA SERVICES, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "QCOM",
+      "cik": "0000804328",
+      "name": "QUALCOMM INC/DE",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DGX",
+      "cik": "0001022079",
+      "name": "QUEST DIAGNOSTICS INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "Q",
+      "cik": "0002058873",
+      "name": "Qnity Electronics, Inc.",
+      "aliases": [
+        "Qnity Electronics"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "RL",
+      "cik": "0001037038",
+      "name": "RALPH LAUREN CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "RJF",
+      "cik": "0000720005",
+      "name": "RAYMOND JAMES FINANCIAL INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "RDDT",
+      "cik": "0001713445",
+      "name": "Reddit, Inc.",
+      "aliases": [
+        "Reddit"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "RTX",
+      "cik": "0000101829",
+      "name": "RTX Corp",
+      "aliases": [
+        "RTX"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "O",
+      "cik": "0000726728",
+      "name": "REALTY INCOME CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "REG",
+      "cik": "0000910606",
+      "name": "REGENCY CENTERS CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "REGN",
+      "cik": "0000872589",
+      "name": "REGENERON PHARMACEUTICALS, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "RF",
+      "cik": "0001281761",
+      "name": "REGIONS FINANCIAL CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "RSG",
+      "cik": "0001060391",
+      "name": "REPUBLIC SERVICES, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "RMD",
+      "cik": "0000943819",
+      "name": "RESMED INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "RVTY",
+      "cik": "0000031791",
+      "name": "REVVITY, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "HOOD",
+      "cik": "0001783879",
+      "name": "Robinhood Markets, Inc.",
+      "aliases": [
+        "Robinhood Markets"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ROK",
+      "cik": "0001024478",
+      "name": "ROCKWELL AUTOMATION, INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ROL",
+      "cik": "0000084839",
+      "name": "ROLLINS INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ROP",
+      "cik": "0000882835",
+      "name": "ROPER TECHNOLOGIES INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ROST",
+      "cik": "0000745732",
+      "name": "ROSS STORES, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "RCL",
+      "cik": "0000884887",
+      "name": "ROYAL CARIBBEAN CRUISES LTD",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SPGI",
+      "cik": "0000064040",
+      "name": "S&P Global Inc.",
+      "aliases": [
+        "S&P Global"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "CRM",
+      "cik": "0001108524",
+      "name": "Salesforce, Inc.",
+      "aliases": [
+        "Salesforce"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SNDK",
+      "cik": "0002023554",
+      "name": "Sandisk Corp",
+      "aliases": [
+        "Sandisk"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SBAC",
+      "cik": "0001034054",
+      "name": "SBA COMMUNICATIONS CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SLB",
+      "cik": "0000087347",
+      "name": "SLB LIMITED/NV",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "STX",
+      "cik": "0001137789",
+      "name": "Seagate Technology Holdings plc",
+      "aliases": [
+        "Seagate Technology Holdings"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SRE",
+      "cik": "0001032208",
+      "name": "SEMPRA",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NOW",
+      "cik": "0001373715",
+      "name": "ServiceNow, Inc.",
+      "aliases": [
+        "ServiceNow"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SHW",
+      "cik": "0000089800",
+      "name": "SHERWIN WILLIAMS CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SPG",
+      "cik": "0001063761",
+      "name": "SIMON PROPERTY GROUP INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SKYD",
+      "cik": "0002041610",
+      "name": "Skydance Corp",
+      "aliases": [
+        "Skydance"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SWKS",
+      "cik": "0000004127",
+      "name": "SKYWORKS SOLUTIONS, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SJM",
+      "cik": "0000091419",
+      "name": "J M SMUCKER Co",
+      "aliases": [
+        "J M SMUCKER"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SW",
+      "cik": "0002005951",
+      "name": "Smurfit Westrock plc",
+      "aliases": [
+        "Smurfit Westrock"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SNA",
+      "cik": "0000091440",
+      "name": "Snap-on Inc",
+      "aliases": [
+        "Snap-on"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SOLV",
+      "cik": "0001964738",
+      "name": "Solventum Corp",
+      "aliases": [
+        "Solventum"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SO",
+      "cik": "0000092122",
+      "name": "SOUTHERN CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "LUV",
+      "cik": "0000092380",
+      "name": "SOUTHWEST AIRLINES CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SWK",
+      "cik": "0000093556",
+      "name": "STANLEY BLACK & DECKER, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SBUX",
+      "cik": "0000829224",
+      "name": "STARBUCKS CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "STT",
+      "cik": "0000093751",
+      "name": "STATE STREET CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "STLD",
+      "cik": "0001022671",
+      "name": "STEEL DYNAMICS INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "STE",
+      "cik": "0001757898",
+      "name": "STERIS plc",
+      "aliases": [
+        "STERIS"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SYK",
+      "cik": "0000310764",
+      "name": "STRYKER CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SMCI",
+      "cik": "0001375365",
+      "name": "Super Micro Computer, Inc.",
+      "aliases": [
+        "Super Micro Computer"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SYF",
+      "cik": "0001601712",
+      "name": "Synchrony Financial",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SNPS",
+      "cik": "0000883241",
+      "name": "SYNOPSYS INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "SYY",
+      "cik": "0000096021",
+      "name": "SYSCO CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TMUS",
+      "cik": "0001283699",
+      "name": "T-Mobile US, Inc.",
+      "aliases": [
+        "T-Mobile US"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TROW",
+      "cik": "0001113169",
+      "name": "PRICE T ROWE GROUP INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TTWO",
+      "cik": "0000946581",
+      "name": "TAKE TWO INTERACTIVE SOFTWARE INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TPR",
+      "cik": "0001116132",
+      "name": "TAPESTRY, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TRGP",
+      "cik": "0001389170",
+      "name": "Targa Resources Corp.",
+      "aliases": [
+        "Targa Resources"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TGT",
+      "cik": "0000027419",
+      "name": "TARGET CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TEL",
+      "cik": "0001385157",
+      "name": "TE Connectivity plc",
+      "aliases": [
+        "TE Connectivity"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TDY",
+      "cik": "0001094285",
+      "name": "TELEDYNE TECHNOLOGIES INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TER",
+      "cik": "0000097210",
+      "name": "TERADYNE, INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TSLA",
+      "cik": "0001318605",
+      "name": "Tesla, Inc.",
+      "aliases": [
+        "Tesla"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TXN",
+      "cik": "0000097476",
+      "name": "TEXAS INSTRUMENTS INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TPL",
+      "cik": "0001811074",
+      "name": "Texas Pacific Land Corp",
+      "aliases": [
+        "Texas Pacific Land"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TXT",
+      "cik": "0000217346",
+      "name": "TEXTRON INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TMO",
+      "cik": "0000097745",
+      "name": "THERMO FISHER SCIENTIFIC INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TJX",
+      "cik": "0000109198",
+      "name": "TJX COMPANIES INC /DE/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TKO",
+      "cik": "0001973266",
+      "name": "TKO Group Holdings, Inc.",
+      "aliases": [
+        "TKO Group Holdings"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TSCO",
+      "cik": "0000916365",
+      "name": "TRACTOR SUPPLY CO /DE/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TT",
+      "cik": "0001466258",
+      "name": "Trane Technologies plc",
+      "aliases": [
+        "Trane Technologies"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TDG",
+      "cik": "0001260221",
+      "name": "TransDigm Group INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TRV",
+      "cik": "0000086312",
+      "name": "TRAVELERS COMPANIES, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TRMB",
+      "cik": "0000864749",
+      "name": "TRIMBLE INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TFC",
+      "cik": "0000092230",
+      "name": "TRUIST FINANCIAL CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TWLO",
+      "cik": "0001447669",
+      "name": "TWILIO INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TYL",
+      "cik": "0000860731",
+      "name": "TYLER TECHNOLOGIES INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "TSN",
+      "cik": "0000100493",
+      "name": "TYSON FOODS, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "USB",
+      "cik": "0000036104",
+      "name": "US BANCORP DE",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "UBER",
+      "cik": "0001543151",
+      "name": "Uber Technologies, Inc",
+      "aliases": [
+        "Uber Technologies"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "UDR",
+      "cik": "0000074208",
+      "name": "UDR, Inc.",
+      "aliases": [
+        "UDR"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ULTA",
+      "cik": "0001403568",
+      "name": "Ulta Beauty, Inc.",
+      "aliases": [
+        "Ulta Beauty"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "UNP",
+      "cik": "0000100885",
+      "name": "UNION PACIFIC CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "UAL",
+      "cik": "0000100517",
+      "name": "United Airlines Holdings, Inc.",
+      "aliases": [
+        "United Airlines Holdings"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "UPS",
+      "cik": "0001090727",
+      "name": "UNITED PARCEL SERVICE INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "URI",
+      "cik": "0001067701",
+      "name": "UNITED RENTALS, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "UNH",
+      "cik": "0000731766",
+      "name": "UNITEDHEALTH GROUP INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "UHS",
+      "cik": "0000352915",
+      "name": "UNIVERSAL HEALTH SERVICES INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "VLO",
+      "cik": "0001035002",
+      "name": "VALERO ENERGY CORP/TX",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "VEEV",
+      "cik": "0001393052",
+      "name": "VEEVA SYSTEMS INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "VTR",
+      "cik": "0000740260",
+      "name": "Ventas, Inc.",
+      "aliases": [
+        "Ventas"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "VLTO",
+      "cik": "0001967680",
+      "name": "Veralto Corp",
+      "aliases": [
+        "Veralto"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "VRSN",
+      "cik": "0001014473",
+      "name": "VERISIGN INC/CA",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "VRSK",
+      "cik": "0001442145",
+      "name": "Verisk Analytics, Inc.",
+      "aliases": [
+        "Verisk Analytics"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "VZ",
+      "cik": "0000732712",
+      "name": "VERIZON COMMUNICATIONS INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "VRTX",
+      "cik": "0000875320",
+      "name": "VERTEX PHARMACEUTICALS INC / MA",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "VRT",
+      "cik": "0001674101",
+      "name": "Vertiv Holdings Co",
+      "aliases": [
+        "Vertiv Holdings"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "VTRS",
+      "cik": "0001792044",
+      "name": "Viatris Inc",
+      "aliases": [
+        "Viatris"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "VICI",
+      "cik": "0001705696",
+      "name": "VICI PROPERTIES INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "V",
+      "cik": "0001403161",
+      "name": "VISA INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "VST",
+      "cik": "0001692819",
+      "name": "Vistra Corp.",
+      "aliases": [
+        "Vistra"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "VMRK",
+      "cik": "0000906107",
+      "name": "VIVMARK RESIDENTIAL",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "VMC",
+      "cik": "0001396009",
+      "name": "Vulcan Materials CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "VYLR",
+      "cik": "0002128626",
+      "name": "Vylor Inc.",
+      "aliases": [
+        "Vylor"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "WRB",
+      "cik": "0000011544",
+      "name": "BERKLEY W R CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "GWW",
+      "cik": "0000277135",
+      "name": "W.W. GRAINGER, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "WAB",
+      "cik": "0000943452",
+      "name": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "WMT",
+      "cik": "0000104169",
+      "name": "Walmart Inc.",
+      "aliases": [
+        "Walmart"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "DIS",
+      "cik": "0001744489",
+      "name": "Walt Disney Co",
+      "aliases": [
+        "Walt Disney"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "WM",
+      "cik": "0000823768",
+      "name": "WASTE MANAGEMENT INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "WAT",
+      "cik": "0001000697",
+      "name": "WATERS CORP /DE/",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "WEC",
+      "cik": "0000783325",
+      "name": "WEC ENERGY GROUP, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "WFC",
+      "cik": "0000072971",
+      "name": "WELLS FARGO & COMPANY/MN",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "WELL",
+      "cik": "0000766704",
+      "name": "WELLTOWER INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "WST",
+      "cik": "0000105770",
+      "name": "WEST PHARMACEUTICAL SERVICES INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "WDC",
+      "cik": "0000106040",
+      "name": "WESTERN DIGITAL CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "WY",
+      "cik": "0000106535",
+      "name": "WEYERHAEUSER CO",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "WSM",
+      "cik": "0000719955",
+      "name": "WILLIAMS SONOMA INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "WMB",
+      "cik": "0000107263",
+      "name": "WILLIAMS COMPANIES, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "WTW",
+      "cik": "0001140536",
+      "name": "WILLIS TOWERS WATSON PLC",
+      "aliases": [
+        "WILLIS TOWERS WATSON"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "WDAY",
+      "cik": "0001327811",
+      "name": "Workday, Inc.",
+      "aliases": [
+        "Workday"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "WYNN",
+      "cik": "0001174922",
+      "name": "WYNN RESORTS LTD",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "XEL",
+      "cik": "0000072903",
+      "name": "XCEL ENERGY INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "XYL",
+      "cik": "0001524472",
+      "name": "Xylem Inc.",
+      "aliases": [
+        "Xylem"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "YUM",
+      "cik": "0001041061",
+      "name": "YUM BRANDS INC",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ZBRA",
+      "cik": "0000877212",
+      "name": "ZEBRA TECHNOLOGIES CORP",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ZBH",
+      "cik": "0001136869",
+      "name": "ZIMMER BIOMET HOLDINGS, INC.",
+      "aliases": [],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "ZTS",
+      "cik": "0001555280",
+      "name": "Zoetis Inc.",
+      "aliases": [
+        "Zoetis"
+      ],
+      "tier": "sp500"
+    },
+    {
+      "ticker": "NBXG",
+      "cik": "0001843181",
+      "name": "Neuberger Next Generation Connectivity Fund Inc.",
+      "aliases": [
+        "Neuberger Next Generation Connectivity Fund"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "TENX",
+      "cik": "0000034956",
+      "name": "TENAX THERAPEUTICS, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "BYNOW",
+      "cik": "0001801417",
+      "name": "byNordic Acquisition Corp",
+      "aliases": [
+        "byNordic Acquisition"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "TRAD",
+      "cik": "0002085485",
+      "name": "APEX Tech Acquisition Inc.",
+      "aliases": [
+        "APEX Tech Acquisition"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "MAMK",
+      "cik": "0002008007",
+      "name": "MaxsMaking Inc.",
+      "aliases": [
+        "MaxsMaking"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "AIO",
+      "cik": "0001778114",
+      "name": "Virtus Artificial Intelligence & Technology Opportunities Fund",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "UCASU",
+      "cik": "0001723517",
+      "name": "UC Asset LP",
+      "aliases": [
+        "UC Asset"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ILLR",
+      "cik": "0001769624",
+      "name": "Triller Group Inc.",
+      "aliases": [
+        "Triller Group"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CSCCF",
+      "cik": "0002075918",
+      "name": "Capstone Copper Corp./ADR",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ANGX",
+      "cik": "0001865200",
+      "name": "Angel Studios, Inc.",
+      "aliases": [
+        "Angel Studios"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "PSRHF",
+      "cik": "0001991413",
+      "name": "Pulsar Helium Inc.",
+      "aliases": [
+        "Pulsar Helium"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "BRSP",
+      "cik": "0001717547",
+      "name": "BrightSpire Capital, Inc.",
+      "aliases": [
+        "BrightSpire Capital"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "KRYXF",
+      "cik": "0001318596",
+      "name": "KORYX COPPER INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "INGN",
+      "cik": "0001294133",
+      "name": "Inogen Inc",
+      "aliases": [
+        "Inogen"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "EZPW",
+      "cik": "0000876523",
+      "name": "EZCORP INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "FLG",
+      "cik": "0000910073",
+      "name": "FLAGSTAR BANK, NATIONAL ASSOCIATION",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ADAC",
+      "cik": "0002083002",
+      "name": "American Drive Acquisition Co",
+      "aliases": [
+        "American Drive Acquisition"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "UURAF",
+      "cik": "0001495651",
+      "name": "Ucore Rare Metals Inc.",
+      "aliases": [
+        "Ucore Rare Metals"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "RTMVF",
+      "cik": "0001516536",
+      "name": "Rightmove PLC/ADR",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CLRB",
+      "cik": "0001279704",
+      "name": "Cellectar Biosciences, Inc.",
+      "aliases": [
+        "Cellectar Biosciences"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SYNA",
+      "cik": "0000817720",
+      "name": "SYNAPTICS Inc",
+      "aliases": [
+        "SYNAPTICS"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ICHGF",
+      "cik": "0000858446",
+      "name": "INTERCONTINENTAL HOTELS GROUP PLC /NEW/",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "GSL-PB",
+      "cik": "0001430725",
+      "name": "Global Ship Lease, Inc.",
+      "aliases": [
+        "Global Ship Lease"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "BIDWU",
+      "cik": "0002094919",
+      "name": "Tribeca Strategic Acquisition Corp.",
+      "aliases": [
+        "Tribeca Strategic Acquisition"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ALC",
+      "cik": "0001167379",
+      "name": "ALCON INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CC",
+      "cik": "0001627223",
+      "name": "Chemours Co",
+      "aliases": [
+        "Chemours"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "NLY-PI",
+      "cik": "0001043219",
+      "name": "ANNALY CAPITAL MANAGEMENT INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "LOCLW",
+      "cik": "0001840780",
+      "name": "Local Bounti Corporation/DE",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "IHRT",
+      "cik": "0001400891",
+      "name": "iHeartMedia, Inc.",
+      "aliases": [
+        "iHeartMedia"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "NBTX",
+      "cik": "0001760854",
+      "name": "Nanobiotix S.A.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "TUFBY",
+      "cik": "0001562296",
+      "name": "Thai Union Group Public Co Limited/ADR",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "REFR",
+      "cik": "0000793524",
+      "name": "RESEARCH FRONTIERS INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ADAMM",
+      "cik": "0001273685",
+      "name": "ADAMAS TRUST, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "OPTXW",
+      "cik": "0001866816",
+      "name": "SYNTEC OPTICS HOLDINGS, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SRKZF",
+      "cik": "0001723455",
+      "name": "SKY GOLD CORP.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "EDRVY",
+      "cik": "0001516534",
+      "name": "EDP Renewables S.A./ADR",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ACT",
+      "cik": "0001823529",
+      "name": "Enact Holdings, Inc.",
+      "aliases": [
+        "Enact Holdings"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "IMOS",
+      "cik": "0001123134",
+      "name": "CHIPMOS TECHNOLOGIES INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "BWIV",
+      "cik": "0002082847",
+      "name": "Blue Water Acquisition Corp. IV",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CGAU",
+      "cik": "0001854640",
+      "name": "Centerra Gold Inc.",
+      "aliases": [
+        "Centerra Gold"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "HKIT",
+      "cik": "0001742341",
+      "name": "Biddance AI Systems, Inc.",
+      "aliases": [
+        "Biddance AI Systems"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "STLA",
+      "cik": "0001605484",
+      "name": "Stellantis N.V.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "XIFR",
+      "cik": "0001603145",
+      "name": "XPLR Infrastructure, LP",
+      "aliases": [
+        "XPLR Infrastructure,"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "LIMN",
+      "cik": "0001971387",
+      "name": "Liminatus Pharma, Inc.",
+      "aliases": [
+        "Liminatus Pharma"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ZHIHF",
+      "cik": "0001835724",
+      "name": "Zhihu Inc.",
+      "aliases": [
+        "Zhihu"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ATR",
+      "cik": "0000896622",
+      "name": "APTARGROUP, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "AESPU",
+      "cik": "0002082526",
+      "name": "Aeon Acquisition I Corp.",
+      "aliases": [
+        "Aeon Acquisition I"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SAIH",
+      "cik": "0001847075",
+      "name": "SAIHEAT Ltd",
+      "aliases": [
+        "SAIHEAT"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SPIWF",
+      "cik": "0002083221",
+      "name": "SPIE SA/ADR",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "JXIRY",
+      "cik": "0002128458",
+      "name": "Jiaxin International Resources Investment Limited/ADR",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "DIOD",
+      "cik": "0000029002",
+      "name": "DIODES INC /DEL/",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "RNGTW",
+      "cik": "0002078653",
+      "name": "Range Capital Acquisition Corp II",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "RNGTU",
+      "cik": "0002078653",
+      "name": "Range Capital Acquisition Corp II",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "KTWOR",
+      "cik": "0002086524",
+      "name": "K2 Capital Acquisition Corp",
+      "aliases": [
+        "K2 Capital Acquisition"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "LEEEF",
+      "cik": "0001711141",
+      "name": "Leef Brands Inc.",
+      "aliases": [
+        "Leef Brands"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SKM",
+      "cik": "0001015650",
+      "name": "SK TELECOM CO LTD",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "MNDY",
+      "cik": "0001845338",
+      "name": "monday.com Ltd.",
+      "aliases": [
+        "monday.com"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "IRD",
+      "cik": "0001228627",
+      "name": "Opus Genetics, Inc.",
+      "aliases": [
+        "Opus Genetics"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "UOKAF",
+      "cik": "0001741534",
+      "name": "MDJM LTD",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "BBCIW",
+      "cik": "0001986694",
+      "name": "Bradbury Capital Inc.",
+      "aliases": [
+        "Bradbury Capital"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "BMOK",
+      "cik": "0002071607",
+      "name": "BM Acquisition Corp.",
+      "aliases": [
+        "BM Acquisition"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CVCPY",
+      "cik": "0002120046",
+      "name": "CVC Capital Partners plc/ADR",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "LANWF",
+      "cik": "0001922097",
+      "name": "Lanvin Group Holdings Ltd",
+      "aliases": [
+        "Lanvin Group Holdings"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "DPUI",
+      "cik": "0001791929",
+      "name": "DISCOUNT PRINT USA, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "JOB",
+      "cik": "0000040570",
+      "name": "GEE Group Inc.",
+      "aliases": [
+        "GEE Group"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CAZGF",
+      "cik": "0002074220",
+      "name": "Catapult Group International Ltd",
+      "aliases": [
+        "Catapult Group International"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "IPB",
+      "cik": "0001267332",
+      "name": "MERRILL LYNCH DEPOSITOR INC INDEXPLUS TRUST SERIES 2003-1",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "AKZOF",
+      "cik": "0000003124",
+      "name": "AKZO NOBEL NV",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "VHCPW",
+      "cik": "0002086264",
+      "name": "Vine Hill Capital Investment Corp. II",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "PSA-PJ",
+      "cik": "0001393311",
+      "name": "Public Storage",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "OKMN",
+      "cik": "0001848334",
+      "name": "OKMIN RESOURCES, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "AWF",
+      "cik": "0000906013",
+      "name": "ALLIANCEBERNSTEIN GLOBAL HIGH INCOME FUND INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "LTUM",
+      "cik": "0001415332",
+      "name": "Lithium Corp",
+      "aliases": [
+        "Lithium"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "GIFT",
+      "cik": "0001760233",
+      "name": "GIFTIFY, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "BITW",
+      "cik": "0001723788",
+      "name": "Bitwise 10 Crypto Index ETF",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "BTDPY",
+      "cik": "0001516324",
+      "name": "Barratt Developments PLC/ADR",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "FGIIW",
+      "cik": "0002090452",
+      "name": "FG Imperii Acquisition Corp.",
+      "aliases": [
+        "FG Imperii Acquisition"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "DNN",
+      "cik": "0001063259",
+      "name": "DENISON MINES CORP.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "XSLLW",
+      "cik": "0002088807",
+      "name": "Xsolla SPAC 1",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ALEC",
+      "cik": "0001653087",
+      "name": "Alector, Inc.",
+      "aliases": [
+        "Alector"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "OCTLF",
+      "cik": "0002083632",
+      "name": "Octave Intelligence plc",
+      "aliases": [
+        "Octave Intelligence"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "MYXXW",
+      "cik": "0002080087",
+      "name": "Maywood Acquisition Corp. 2",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "PAGP",
+      "cik": "0001581990",
+      "name": "PLAINS GP HOLDINGS LP",
+      "aliases": [
+        "PLAINS GP HOLDINGS"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CICC",
+      "cik": "0001534254",
+      "name": "CION Investment Corp",
+      "aliases": [
+        "CION Investment"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "NEXM",
+      "cik": "0000795800",
+      "name": "NexMetals Mining Corp.",
+      "aliases": [
+        "NexMetals Mining"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "NMKBP",
+      "cik": "0001004315",
+      "name": "NATIONAL GRID PLC",
+      "aliases": [
+        "NATIONAL GRID"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ACET",
+      "cik": "0001720580",
+      "name": "Adicet Bio, Inc.",
+      "aliases": [
+        "Adicet Bio"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "KITL",
+      "cik": "0001608092",
+      "name": "Kisses From Italy Inc.",
+      "aliases": [
+        "Kisses From Italy"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "VMNT",
+      "cik": "0001605057",
+      "name": "Vemanti Group, Inc.",
+      "aliases": [
+        "Vemanti Group"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "TGLO",
+      "cik": "0001066684",
+      "name": "THEGLOBE COM INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "RFM",
+      "cik": "0001790177",
+      "name": "RiverNorth Flexible Municipal Income Fund, Inc.",
+      "aliases": [
+        "RiverNorth Flexible Municipal Income Fund"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "WOLTF",
+      "cik": "0000861967",
+      "name": "WOLTERS KLUWER N V /FI",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "THRC",
+      "cik": "0001409253",
+      "name": "Havana Roasters Coffee Companies, Inc.",
+      "aliases": [
+        "Havana Roasters Coffee Companies"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "MDCE",
+      "cik": "0001404593",
+      "name": "Medical Care Technologies Inc.",
+      "aliases": [
+        "Medical Care Technologies"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "NC",
+      "cik": "0000789933",
+      "name": "NACCO INDUSTRIES INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "BAC-PM",
+      "cik": "0000070858",
+      "name": "BANK OF AMERICA CORP /DE/",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CRMZ",
+      "cik": "0000315958",
+      "name": "CREDITRISKMONITOR COM INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "NOVTU",
+      "cik": "0001076930",
+      "name": "NOVANTA INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "MH",
+      "cik": "0001951070",
+      "name": "McGraw Hill, Inc.",
+      "aliases": [
+        "McGraw Hill"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CRT",
+      "cik": "0000881787",
+      "name": "CROSS TIMBERS ROYALTY TRUST",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ELFTY",
+      "cik": "0002073615",
+      "name": "Element Fleet Management Corp./ADR",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CAQ",
+      "cik": "0002100125",
+      "name": "Cambridge Acquisition Corp.",
+      "aliases": [
+        "Cambridge Acquisition"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "WENN",
+      "cik": "0002057043",
+      "name": "WEN Acquisition Corp",
+      "aliases": [
+        "WEN Acquisition"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "QGAI",
+      "cik": "0001663038",
+      "name": "Quantum Genesis AI Corp.",
+      "aliases": [
+        "Quantum Genesis AI"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "TY",
+      "cik": "0000099614",
+      "name": "TRI-CONTINENTAL Corp",
+      "aliases": [
+        "TRI-CONTINENTAL"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "FTRSF",
+      "cik": "0001666175",
+      "name": "Fortis Inc.",
+      "aliases": [
+        "Fortis"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ATCHW",
+      "cik": "0001963088",
+      "name": "AtlasClear Holdings, Inc.",
+      "aliases": [
+        "AtlasClear Holdings"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "QETAU",
+      "cik": "0001978528",
+      "name": "Quetta Acquisition Corp",
+      "aliases": [
+        "Quetta Acquisition"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SPKLF",
+      "cik": "0001884046",
+      "name": "Spark I Acquisition Corp",
+      "aliases": [
+        "Spark I Acquisition"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "GIC",
+      "cik": "0000945114",
+      "name": "GLOBAL INDUSTRIAL Co",
+      "aliases": [
+        "GLOBAL INDUSTRIAL"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "GOVX",
+      "cik": "0000832489",
+      "name": "GeoVax Labs, Inc.",
+      "aliases": [
+        "GeoVax Labs"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "PSA-PQ",
+      "cik": "0001393311",
+      "name": "Public Storage",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "FMCCP",
+      "cik": "0001026214",
+      "name": "FEDERAL HOME LOAN MORTGAGE CORP",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CMS-PC",
+      "cik": "0000811156",
+      "name": "CMS ENERGY CORP",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ZENA",
+      "cik": "0001997403",
+      "name": "ZenaTech, Inc.",
+      "aliases": [
+        "ZenaTech"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ADMA",
+      "cik": "0001368514",
+      "name": "ADMA BIOLOGICS, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SKIN",
+      "cik": "0001818093",
+      "name": "SkinHealth Systems Inc.",
+      "aliases": [
+        "SkinHealth Systems"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SUJA",
+      "cik": "0001934114",
+      "name": "SUJA LIFE, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "BC-PC",
+      "cik": "0000014930",
+      "name": "BRUNSWICK CORP",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "IRHO",
+      "cik": "0002051985",
+      "name": "Iron Horse Acquisition II Corp.",
+      "aliases": [
+        "Iron Horse Acquisition II"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "BKFDF",
+      "cik": "0001001085",
+      "name": "BROOKFIELD Corp /ON/",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "HMMR",
+      "cik": "0001539680",
+      "name": "HAMMER TECHNOLOGY HOLDINGS CORP.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CMLSQ",
+      "cik": "0001058623",
+      "name": "CUMULUS MEDIA INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "AZZTF",
+      "cik": "0001706404",
+      "name": "Aztec Minerals Corp.",
+      "aliases": [
+        "Aztec Minerals"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CUEN",
+      "cik": "0001424657",
+      "name": "Cuentas Inc.",
+      "aliases": [
+        "Cuentas"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "GMED",
+      "cik": "0001237831",
+      "name": "GLOBUS MEDICAL INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "AESP",
+      "cik": "0002082526",
+      "name": "Aeon Acquisition I Corp.",
+      "aliases": [
+        "Aeon Acquisition I"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "BRKRP",
+      "cik": "0001109354",
+      "name": "BRUKER CORP",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ABCP",
+      "cik": "0000020639",
+      "name": "AmBase Corp",
+      "aliases": [
+        "AmBase"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "DBB",
+      "cik": "0001383084",
+      "name": "INVESCO DB BASE METALS FUND",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CRBP",
+      "cik": "0001595097",
+      "name": "Corbus Pharmaceuticals Holdings, Inc.",
+      "aliases": [
+        "Corbus Pharmaceuticals Holdings"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "DSYWW",
+      "cik": "0001999297",
+      "name": "Big Tree Cloud Holdings Ltd",
+      "aliases": [
+        "Big Tree Cloud Holdings"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "MTG",
+      "cik": "0000876437",
+      "name": "MGIC INVESTMENT CORP",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "WCN",
+      "cik": "0001318220",
+      "name": "Waste Connections, Inc.",
+      "aliases": [
+        "Waste Connections"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "VISK",
+      "cik": "0000727510",
+      "name": "Viskase Holdings, Inc.",
+      "aliases": [
+        "Viskase Holdings"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ECOC",
+      "cik": "0001173313",
+      "name": "ABVC BIOPHARMA, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "MMU",
+      "cik": "0000886043",
+      "name": "WESTERN ASSET MANAGED MUNICIPALS FUND INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "TILE",
+      "cik": "0000715787",
+      "name": "INTERFACE INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "GXXM",
+      "cik": "0001681556",
+      "name": "GEX MANAGEMENT, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "XERI",
+      "cik": "0001481504",
+      "name": "XERIANT, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "NIMU",
+      "cik": "0000720762",
+      "name": "NON INVASIVE MONITORING SYSTEMS INC /FL/",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SRCE",
+      "cik": "0000034782",
+      "name": "1ST SOURCE CORP",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "RENT",
+      "cik": "0001468327",
+      "name": "Rent the Runway, Inc.",
+      "aliases": [
+        "Rent the Runway"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CIM-PA",
+      "cik": "0001409493",
+      "name": "CHIMERA INVESTMENT CORP",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ALDS",
+      "cik": "0001755101",
+      "name": "APPlife Digital Solutions Inc",
+      "aliases": [
+        "APPlife Digital Solutions"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "IAM",
+      "cik": "0001997038",
+      "name": "Iambic Therapeutics, Inc.",
+      "aliases": [
+        "Iambic Therapeutics"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "RDVT",
+      "cik": "0001720116",
+      "name": "Red Violet, Inc.",
+      "aliases": [
+        "Red Violet"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "GWSO",
+      "cik": "0001430300",
+      "name": "Global Warming Solutions, Inc.",
+      "aliases": [
+        "Global Warming Solutions"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CUBT",
+      "cik": "0001400271",
+      "name": "Curative Biotechnology Inc",
+      "aliases": [
+        "Curative Biotechnology"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "TULP",
+      "cik": "0000875355",
+      "name": "BLOOMIA HOLDINGS, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "AI",
+      "cik": "0001577526",
+      "name": "C3.ai, Inc.",
+      "aliases": [
+        "C3.ai"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "GNMSF",
+      "cik": "0001434265",
+      "name": "GENMAB A/S",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "LOTT",
+      "cik": "0001568969",
+      "name": "Techlott Inc.",
+      "aliases": [
+        "Techlott"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "TLSA",
+      "cik": "0001723069",
+      "name": "Tiziana Life Sciences Ltd",
+      "aliases": [
+        "Tiziana Life Sciences"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "IVEVF",
+      "cik": "0001756594",
+      "name": "Inventiva S.A.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "PPC",
+      "cik": "0000802481",
+      "name": "PILGRIMS PRIDE CORP",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CFR",
+      "cik": "0000039263",
+      "name": "CULLEN/FROST BANKERS, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "MOBQW",
+      "cik": "0001084267",
+      "name": "Mobiquity Technologies, Inc.",
+      "aliases": [
+        "Mobiquity Technologies"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "AXTI",
+      "cik": "0001051627",
+      "name": "AXT INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "FRME",
+      "cik": "0000712534",
+      "name": "FIRST MERCHANTS CORP",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "RVMD",
+      "cik": "0001628171",
+      "name": "Revolution Medicines, Inc.",
+      "aliases": [
+        "Revolution Medicines"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "RYDAF",
+      "cik": "0001306965",
+      "name": "Shell plc",
+      "aliases": [
+        "Shell"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SUIC",
+      "cik": "0001394108",
+      "name": "SUIC Worldwide Holdings Ltd.",
+      "aliases": [
+        "SUIC Worldwide Holdings"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "REEWF",
+      "cik": "0001889112",
+      "name": "Cartesian Growth Corp II",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SPOWF",
+      "cik": "0001227282",
+      "name": "Strata Power Corp",
+      "aliases": [
+        "Strata Power"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "MRP",
+      "cik": "0002017206",
+      "name": "Millrose Properties, Inc.",
+      "aliases": [
+        "Millrose Properties"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "HODO",
+      "cik": "0001903595",
+      "name": "House of Doge Inc.",
+      "aliases": [
+        "House of Doge"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "OAK-PA",
+      "cik": "0001403528",
+      "name": "Brookfield Oaktree Holdings, LLC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "TIGO",
+      "cik": "0000912958",
+      "name": "MILLICOM INTERNATIONAL CELLULAR SA",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "DAO",
+      "cik": "0001781753",
+      "name": "Youdao, Inc.",
+      "aliases": [
+        "Youdao"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "FHI",
+      "cik": "0001056288",
+      "name": "FEDERATED HERMES, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "TASK",
+      "cik": "0001829864",
+      "name": "TaskUs, Inc.",
+      "aliases": [
+        "TaskUs"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "IMNN",
+      "cik": "0000749647",
+      "name": "Imunon, Inc.",
+      "aliases": [
+        "Imunon"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "RPT",
+      "cik": "0001614806",
+      "name": "Rithm Property Trust Inc.",
+      "aliases": [
+        "Rithm Property Trust"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "WCT",
+      "cik": "0001990251",
+      "name": "Wellchange Holdings Co Ltd",
+      "aliases": [
+        "Wellchange Holdings Co"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "HAPVY",
+      "cik": "0001869666",
+      "name": "Hapvida Participacoes e Investimentos S.A./ADR",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "AEC",
+      "cik": "0001519469",
+      "name": "ANFIELD ENERGY INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "BTLN",
+      "cik": "0001854445",
+      "name": "Brightline Interactive, Inc./NV",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "OLN",
+      "cik": "0000074303",
+      "name": "OLIN Corp",
+      "aliases": [
+        "OLIN"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ENT",
+      "cik": "0002028464",
+      "name": "ENTRATA, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "PECO",
+      "cik": "0001476204",
+      "name": "Phillips Edison & Company, Inc.",
+      "aliases": [
+        "Phillips Edison & Company"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "RNW",
+      "cik": "0001848763",
+      "name": "ReNew Energy Global plc",
+      "aliases": [
+        "ReNew Energy Global"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "MPLX",
+      "cik": "0001552000",
+      "name": "MPLX LP",
+      "aliases": [
+        "MPLX"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "GFI",
+      "cik": "0001172724",
+      "name": "GOLD FIELDS LTD",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "NKTPD",
+      "cik": "0002038166",
+      "name": "Nok Therapeutics, Inc.",
+      "aliases": [
+        "Nok Therapeutics"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "BHP",
+      "cik": "0000811809",
+      "name": "BHP Group Ltd",
+      "aliases": [
+        "BHP Group"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "FEAV",
+      "cik": "0001888654",
+      "name": "5E Advanced Materials, Inc.",
+      "aliases": [
+        "5E Advanced Materials"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "MMTRS",
+      "cik": "0000066496",
+      "name": "MILLS MUSIC TRUST",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "TKC",
+      "cik": "0001071321",
+      "name": "TURKCELL ILETISIM HIZMETLERI A S",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "BCAL",
+      "cik": "0001795815",
+      "name": "California BanCorp \\ CA",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "RICK",
+      "cik": "0000935419",
+      "name": "RCI HOSPITALITY HOLDINGS, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "RBA",
+      "cik": "0001046102",
+      "name": "RB GLOBAL INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SGST",
+      "cik": "0001852575",
+      "name": "Strategic Storage Trust VI, Inc.",
+      "aliases": [
+        "Strategic Storage Trust VI"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "FILG",
+      "cik": "0001852039",
+      "name": "Grayscale Filecoin Trust (FIL)",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "TRLEF",
+      "cik": "0001648636",
+      "name": "Dune Oil Corp.",
+      "aliases": [
+        "Dune Oil"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "STRZ",
+      "cik": "0000929351",
+      "name": "STARZ ENTERTAINMENT CORP /CN/",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "HFWA",
+      "cik": "0001046025",
+      "name": "HERITAGE FINANCIAL CORP /WA/",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "USOI",
+      "cik": "0001053092",
+      "name": "CREDIT SUISSE AG",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "RENEF",
+      "cik": "0001889112",
+      "name": "Cartesian Growth Corp II",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "VNO-PO",
+      "cik": "0000899689",
+      "name": "VORNADO REALTY TRUST",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "BOT",
+      "cik": "0002081119",
+      "name": "RoboStrategy, Inc.",
+      "aliases": [
+        "RoboStrategy"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "JCYGY",
+      "cik": "0001289688",
+      "name": "Jardine Matheson Southeast Asia Limited/ADR",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "FRMEP",
+      "cik": "0000712534",
+      "name": "FIRST MERCHANTS CORP",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SNDX",
+      "cik": "0001395937",
+      "name": "Syndax Pharmaceuticals Inc",
+      "aliases": [
+        "Syndax Pharmaceuticals"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "LSPD",
+      "cik": "0001823306",
+      "name": "Lightspeed Commerce Inc.",
+      "aliases": [
+        "Lightspeed Commerce"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "MFA-PB",
+      "cik": "0001055160",
+      "name": "MFA FINANCIAL, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CIA",
+      "cik": "0000024090",
+      "name": "CITIZENS, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "KNF",
+      "cik": "0001955520",
+      "name": "Knife River Corp",
+      "aliases": [
+        "Knife River"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "DEC",
+      "cik": "0001922446",
+      "name": "Diversified Energy Co",
+      "aliases": [
+        "Diversified Energy"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "AKO-A",
+      "cik": "0000925261",
+      "name": "ANDINA BOTTLING CO INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "PLCKF",
+      "cik": "0001848782",
+      "name": "Plurilock Security Inc.",
+      "aliases": [
+        "Plurilock Security"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "GRWFF",
+      "cik": "0000850918",
+      "name": "GREAT-WEST LIFECO INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "GMRS",
+      "cik": "0001898718",
+      "name": "GMR Solutions Inc.",
+      "aliases": [
+        "GMR Solutions"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CRMD",
+      "cik": "0001410098",
+      "name": "CorMedix Inc.",
+      "aliases": [
+        "CorMedix"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "AQN",
+      "cik": "0001174169",
+      "name": "ALGONQUIN POWER & UTILITIES CORP.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SENEA",
+      "cik": "0000088948",
+      "name": "Seneca Foods Corp",
+      "aliases": [
+        "Seneca Foods"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SHLAF",
+      "cik": "0001655190",
+      "name": "Schindler Holding AG/ADR",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "MNYWW",
+      "cik": "0001974044",
+      "name": "MoneyHero Ltd",
+      "aliases": [
+        "MoneyHero"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "DBE",
+      "cik": "0001383062",
+      "name": "Invesco DB Energy Fund",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "QDMI",
+      "cik": "0001094032",
+      "name": "QDM International Inc.",
+      "aliases": [
+        "QDM International"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SKVI",
+      "cik": "0001085277",
+      "name": "SKINVISIBLE, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CWCO",
+      "cik": "0000928340",
+      "name": "Consolidated Water Co. Ltd.",
+      "aliases": [
+        "Consolidated Water Co."
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "EEA",
+      "cik": "0000791718",
+      "name": "EUROPEAN EQUITY FUND, INC / MD",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "TK",
+      "cik": "0000911971",
+      "name": "TEEKAY CORP LTD",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "FBIOP",
+      "cik": "0001429260",
+      "name": "Fortress Biotech, Inc.",
+      "aliases": [
+        "Fortress Biotech"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "RGT",
+      "cik": "0001514490",
+      "name": "ROYCE GLOBAL TRUST, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "GMEX",
+      "cik": "0001928581",
+      "name": "GMEX Robotics Corp",
+      "aliases": [
+        "GMEX Robotics"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "XRPN",
+      "cik": "0002044009",
+      "name": "Armada Acquisition Corp. II",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "GLRE",
+      "cik": "0001385613",
+      "name": "GREENLIGHT CAPITAL RE, LTD.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SFES",
+      "cik": "0000086115",
+      "name": "SAFEGUARD SCIENTIFICS INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "EDRY",
+      "cik": "0001731388",
+      "name": "EuroDry Ltd.",
+      "aliases": [
+        "EuroDry"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CATX",
+      "cik": "0000728387",
+      "name": "Perspective Therapeutics, Inc.",
+      "aliases": [
+        "Perspective Therapeutics"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "AMLIF",
+      "cik": "0001699880",
+      "name": "American Lithium Corp.",
+      "aliases": [
+        "American Lithium"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "DRTS",
+      "cik": "0001871321",
+      "name": "Alpha Tau Medical Ltd.",
+      "aliases": [
+        "Alpha Tau Medical"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SLG",
+      "cik": "0001040971",
+      "name": "SL GREEN REALTY CORP",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "FLYE",
+      "cik": "0001975940",
+      "name": "Fly-E Group, Inc.",
+      "aliases": [
+        "Fly-E Group"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "MNLCF",
+      "cik": "0001086888",
+      "name": "MANULIFE FINANCIAL CORP",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "NHPBP",
+      "cik": "0001561032",
+      "name": "National Healthcare Properties, Inc.",
+      "aliases": [
+        "National Healthcare Properties"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "LUCD",
+      "cik": "0001799011",
+      "name": "Lucid Diagnostics Inc.",
+      "aliases": [
+        "Lucid Diagnostics"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CARG",
+      "cik": "0001494259",
+      "name": "CarGurus, Inc.",
+      "aliases": [
+        "CarGurus"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SRL",
+      "cik": "0000016859",
+      "name": "Scully Royalty Ltd.",
+      "aliases": [
+        "Scully Royalty"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "MOB",
+      "cik": "0001898643",
+      "name": "Mobilicom Ltd",
+      "aliases": [
+        "Mobilicom"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "HTHT",
+      "cik": "0001483994",
+      "name": "H World Group Ltd",
+      "aliases": [
+        "H World Group"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "COHU",
+      "cik": "0000021535",
+      "name": "COHU INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "QADR",
+      "cik": "0002083217",
+      "name": "QDRO Acquisition Corp.",
+      "aliases": [
+        "QDRO Acquisition"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "AEHGS",
+      "cik": "0002032732",
+      "name": "Arrived Homes 5, LLC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "IOTR",
+      "cik": "0001997637",
+      "name": "iOThree Ltd",
+      "aliases": [
+        "iOThree"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "NICH",
+      "cik": "0000772263",
+      "name": "NITCHES INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CANN",
+      "cik": "0001477009",
+      "name": "TREES Corp (Colorado)",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ACR-PC",
+      "cik": "0001332551",
+      "name": "ACRES Commercial Realty Corp.",
+      "aliases": [
+        "ACRES Commercial Realty"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "IBTA",
+      "cik": "0001538379",
+      "name": "Ibotta, Inc.",
+      "aliases": [
+        "Ibotta"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "TXMD",
+      "cik": "0000025743",
+      "name": "TherapeuticsMD, Inc.",
+      "aliases": [
+        "TherapeuticsMD"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "PHNMF",
+      "cik": "0001720553",
+      "name": "Phenom Resources Corp.",
+      "aliases": [
+        "Phenom Resources"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "NEOV",
+      "cik": "0001748137",
+      "name": "NeoVolta Inc.",
+      "aliases": [
+        "NeoVolta"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "LPG",
+      "cik": "0001596993",
+      "name": "DORIAN LPG LTD.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "FRSX",
+      "cik": "0001691221",
+      "name": "Foresight Autonomous Holdings Ltd.",
+      "aliases": [
+        "Foresight Autonomous Holdings"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "ONMD",
+      "cik": "0001849380",
+      "name": "OneMedNet Corp",
+      "aliases": [
+        "OneMedNet"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "GLBE",
+      "cik": "0001835963",
+      "name": "Global-E Online Ltd.",
+      "aliases": [
+        "Global-E Online"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CALX",
+      "cik": "0001406666",
+      "name": "CALIX, INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "LZM-WT",
+      "cik": "0001958217",
+      "name": "Lifezone Metals Ltd",
+      "aliases": [
+        "Lifezone Metals"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "EFT",
+      "cik": "0001288992",
+      "name": "Eaton Vance Floating-Rate Income Trust",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "MIAX",
+      "cik": "0001438472",
+      "name": "MIAMI INTERNATIONAL HOLDINGS, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "BELFA",
+      "cik": "0000729580",
+      "name": "BEL FUSE INC /NJ",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "TANH",
+      "cik": "0001588084",
+      "name": "TANTECH HOLDINGS LTD",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "FEMY",
+      "cik": "0001339005",
+      "name": "FEMASYS INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "FATN",
+      "cik": "0001993400",
+      "name": "Fatpipe Inc/UT",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "GDHG",
+      "cik": "0001928340",
+      "name": "GOLDEN HEAVEN GROUP HOLDINGS LTD.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "GPRK",
+      "cik": "0001464591",
+      "name": "GeoPark Ltd",
+      "aliases": [
+        "GeoPark"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "FUUFF",
+      "cik": "0001703118",
+      "name": "F3 Uranium Corp.",
+      "aliases": [
+        "F3 Uranium"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "EGHT",
+      "cik": "0001023731",
+      "name": "8X8 INC /DE/",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "FNUC",
+      "cik": "0001769697",
+      "name": "Frontier Nuclear & Minerals Inc.",
+      "aliases": [
+        "Frontier Nuclear & Minerals"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "INVA",
+      "cik": "0001080014",
+      "name": "Innoviva, Inc.",
+      "aliases": [
+        "Innoviva"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CLSK",
+      "cik": "0000827876",
+      "name": "CLEANSPARK, INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "SKKY",
+      "cik": "0001546853",
+      "name": "Skkynet Cloud Systems, Inc.",
+      "aliases": [
+        "Skkynet Cloud Systems"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "OMQS",
+      "cik": "0000278165",
+      "name": "OMNIQ Corp.",
+      "aliases": [
+        "OMNIQ"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "NUAI",
+      "cik": "0002028336",
+      "name": "New ERA Energy & Digital, Inc.",
+      "aliases": [
+        "New ERA Energy & Digital"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "OYSER",
+      "cik": "0002042182",
+      "name": "Oyster Enterprises II Acquisition Corp",
+      "aliases": [
+        "Oyster Enterprises II Acquisition"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "TSNDF",
+      "cik": "0001778129",
+      "name": "TerrAscend Corp.",
+      "aliases": [
+        "TerrAscend"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "IMPP",
+      "cik": "0001876581",
+      "name": "Imperial Petroleum Inc./Marshall Islands",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "PNYG",
+      "cik": "0001784058",
+      "name": "Pony Group Inc.",
+      "aliases": [
+        "Pony Group"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "EBBNF",
+      "cik": "0000895728",
+      "name": "ENBRIDGE INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "PHIN",
+      "cik": "0001968915",
+      "name": "PHINIA INC.",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CSV",
+      "cik": "0001016281",
+      "name": "CARRIAGE SERVICES INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "NTCMY",
+      "cik": "0002126620",
+      "name": "Natura Cosmeticos S.A./ADR",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CNQ",
+      "cik": "0001017413",
+      "name": "CANADIAN NATURAL RESOURCES Ltd",
+      "aliases": [
+        "CANADIAN NATURAL RESOURCES"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "PBATF",
+      "cik": "0001489088",
+      "name": "PT Bukit Asam Tbk/ADR",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "RILYP",
+      "cik": "0001464790",
+      "name": "BRC Group Holdings, Inc.",
+      "aliases": [
+        "BRC Group Holdings"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "IQI",
+      "cik": "0000885125",
+      "name": "Invesco Quality Municipal Income Trust",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "EUDA",
+      "cik": "0001847846",
+      "name": "EUDA Health Holdings Ltd",
+      "aliases": [
+        "EUDA Health Holdings"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "PTEN",
+      "cik": "0000889900",
+      "name": "PATTERSON UTI ENERGY INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "DNP",
+      "cik": "0000806628",
+      "name": "DNP SELECT INCOME FUND INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "MBAI",
+      "cik": "0001610590",
+      "name": "MBody AI Ltd.",
+      "aliases": [
+        "MBody AI"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "OGGWZ",
+      "cik": "0001431852",
+      "name": "Osisko Gold Group Inc.",
+      "aliases": [
+        "Osisko Gold Group"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "RCIAF",
+      "cik": "0000733099",
+      "name": "ROGERS COMMUNICATIONS INC",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "BBLG",
+      "cik": "0001419554",
+      "name": "Bone Biologics Corp",
+      "aliases": [
+        "Bone Biologics"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "KOLD",
+      "cik": "0001415311",
+      "name": "ProShares Trust II",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "LKSP",
+      "cik": "0002043508",
+      "name": "Lake Superior Acquisition Corp",
+      "aliases": [
+        "Lake Superior Acquisition"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "AHL-PF",
+      "cik": "0001267395",
+      "name": "ASPEN INSURANCE HOLDINGS LTD",
+      "aliases": [],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "CVKD",
+      "cik": "0001937993",
+      "name": "Cadrenal Therapeutics, Inc.",
+      "aliases": [
+        "Cadrenal Therapeutics"
+      ],
+      "tier": "smallmid"
+    },
+    {
+      "ticker": "JHS",
+      "cik": "0000759866",
+      "name": "JOHN HANCOCK INCOME SECURITIES TRUST",
+      "aliases": [],
+      "tier": "smallmid"
+    }
+  ]
+}

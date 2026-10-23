@@ -1,0 +1,150 @@
+{
+  "checkedAt": "2026-10-09T16:35:24.742Z",
+  "exclusions": [
+    {
+      "domain": "reuters.com",
+      "verdict": "excluded",
+      "reason": "manual exclusion (2026-10-16): benchmark requires a match on the publisher's own domain; Perigon's reuters.com source ingests only a sparse subset (~2 articles/day for the benchmark key) while Reuters stories are carried via syndicated reprints on other domains, which the matcher cannot credit. Google News returns reuters.com directly, so the source measures source-carriage differences rather than indexing speed/coverage. Excluded from ground truth for all providers; see suites/latency/METHODOLOGY.md."
+    },
+    {
+      "domain": "apnews.com",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (7 URLs tried)"
+    },
+    {
+      "domain": "upi.com",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (7 URLs tried)"
+    },
+    {
+      "domain": "afp.com",
+      "verdict": "stale",
+      "reason": "newest on-domain item is 44353h old (limit 72h)"
+    },
+    {
+      "domain": "dpa.com",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (7 URLs tried)"
+    },
+    {
+      "domain": "efe.com",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (6 URLs tried)"
+    },
+    {
+      "domain": "kyodonews.net",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (7 URLs tried)"
+    },
+    {
+      "domain": "xinhuanet.com",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (7 URLs tried)"
+    },
+    {
+      "domain": "businesswire.com",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (7 URLs tried)"
+    },
+    {
+      "domain": "globenewswire.com",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (7 URLs tried)"
+    },
+    {
+      "domain": "accesswire.com",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (9 URLs tried)"
+    },
+    {
+      "domain": "washingtonpost.com",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (8 URLs tried)"
+    },
+    {
+      "domain": "thestreet.com",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (8 URLs tried)"
+    },
+    {
+      "domain": "healthcarefinancenews.com",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (7 URLs tried)"
+    },
+    {
+      "domain": "theaustralian.com.au",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (8 URLs tried)"
+    },
+    {
+      "domain": "cbc.ca",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (7 URLs tried)"
+    },
+    {
+      "domain": "chicagotribune.com",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (8 URLs tried)"
+    },
+    {
+      "domain": "sfchronicle.com",
+      "verdict": "stale",
+      "reason": "newest on-domain item is 203h old (limit 72h)"
+    },
+    {
+      "domain": "houstonchronicle.com",
+      "verdict": "stale",
+      "reason": "newest on-domain item is 203h old (limit 72h)"
+    },
+    {
+      "domain": "denverpost.com",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (8 URLs tried)"
+    },
+    {
+      "domain": "miamiherald.com",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (7 URLs tried)"
+    },
+    {
+      "domain": "nola.com",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (8 URLs tried)"
+    },
+    {
+      "domain": "mainichi.jp",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (7 URLs tried)"
+    },
+    {
+      "domain": "yomiuri.co.jp",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (7 URLs tried)"
+    },
+    {
+      "domain": "nikkei.com",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (7 URLs tried)"
+    },
+    {
+      "domain": "globaltimes.cn",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (7 URLs tried)"
+    },
+    {
+      "domain": "dw.com",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (7 URLs tried)"
+    },
+    {
+      "domain": "arabnews.com",
+      "verdict": "dead",
+      "reason": "no reachable feed or news sitemap with on-domain items (7 URLs tried)"
+    },
+    {
+      "domain": "thestar.com",
+      "verdict": "stale",
+      "reason": "newest on-domain item is 28418h old (limit 72h)"
+    }
+  ]
+}

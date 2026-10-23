@@ -1,0 +1,19 @@
+{
+  "events": [
+    {
+      "id": "fomc-example",
+      "name": "FOMC rate decision (template)",
+      "description": "Replace scheduledAt with the next FOMC announcement.",
+      "scheduledAt": "2026-01-28T19:00:00.000Z",
+      "queryTerms": ["Federal Reserve", "interest rate", "FOMC"],
+      "itemTypes": ["macro"]
+    },
+    {
+      "id": "jobs-report-example",
+      "name": "US jobs report (template)",
+      "scheduledAt": "2026-02-06T13:30:00.000Z",
+      "queryTerms": ["nonfarm payrolls", "jobs report", "BLS"],
+      "itemTypes": ["macro"]
+    }
+  ]
+}

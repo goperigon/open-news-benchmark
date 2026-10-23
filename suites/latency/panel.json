@@ -1,0 +1,533 @@
+{
+  "schemaVersion": 1,
+  "registeredAt": "2026-10-09T16:35:24.742Z",
+  "description": "Pre-registered source panel for Open News Benchmark latency suite. Do not change without updating METHODOLOGY.md and starting a new run series.",
+  "sources": [
+    {
+      "domain": "ansa.it",
+      "sourceType": "wire",
+      "language": "it",
+      "country": "IT",
+      "feedUrl": "https://www.ansa.it/rss.xml"
+    },
+    {
+      "domain": "ptinews.com",
+      "sourceType": "wire",
+      "language": "en",
+      "country": "IN",
+      "sitemapUrl": "https://www.ptinews.com/sitemap.xml"
+    },
+    {
+      "domain": "prnewswire.com",
+      "sourceType": "press_release_wire",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://www.prnewswire.com/rss/news-releases-list.rss",
+      "sitemapUrl": "https://www.prnewswire.com/sitemap.xml"
+    },
+    {
+      "domain": "prweb.com",
+      "sourceType": "press_release_wire",
+      "language": "en",
+      "country": "US",
+      "sitemapUrl": "https://www.prweb.com/sitemap-news.xml"
+    },
+    {
+      "domain": "cnbc.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+      "sitemapUrl": "https://www.cnbc.com/sitemap_news.xml"
+    },
+    {
+      "domain": "bloomberg.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "sitemapUrl": "https://www.bloomberg.com/sitemaps/news/index.xml"
+    },
+    {
+      "domain": "wsj.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "sitemapUrl": "https://www.wsj.com/wsjsitemaps/wsj_google_news.xml"
+    },
+    {
+      "domain": "ft.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "GB",
+      "feedUrl": "https://www.ft.com/rss/home/international"
+    },
+    {
+      "domain": "nytimes.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/business/rss.xml",
+      "sitemapUrl": "https://www.nytimes.com/sitemaps/new/news.xml.gz"
+    },
+    {
+      "domain": "marketwatch.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+      "sitemapUrl": "https://www.marketwatch.com/mw_news_sitemap.xml"
+    },
+    {
+      "domain": "fortune.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://fortune.com/feed/fortune-feeds/?id=3230629",
+      "sitemapUrl": "https://fortune.com/feed/googlenews/articles.xml"
+    },
+    {
+      "domain": "forbes.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://www.forbes.com/business/feed",
+      "sitemapUrl": "https://www.forbes.com/news_sitemap.xml"
+    },
+    {
+      "domain": "businessinsider.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://feeds.businessinsider.com/custom/all",
+      "sitemapUrl": "https://www.businessinsider.com/sitemap/google-news.xml"
+    },
+    {
+      "domain": "seekingalpha.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://seekingalpha.com/feed.xml",
+      "sitemapUrl": "https://seekingalpha.com/sitemap_news.xml"
+    },
+    {
+      "domain": "techcrunch.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://techcrunch.com/feed/",
+      "sitemapUrl": "https://techcrunch.com/news-sitemap.xml"
+    },
+    {
+      "domain": "theverge.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://www.theverge.com/rss/index.xml",
+      "sitemapUrl": "https://www.theverge.com/sitemaps/google_news"
+    },
+    {
+      "domain": "arstechnica.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://arstechnica.com/feed/"
+    },
+    {
+      "domain": "wired.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://www.wired.com/feed/rss",
+      "sitemapUrl": "https://www.wired.com/feed/google-latest-news/sitemap-google-news"
+    },
+    {
+      "domain": "axios.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://api.axios.com/feed/"
+    },
+    {
+      "domain": "politico.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "sitemapUrl": "https://www.politico.com/news-sitemap.xml"
+    },
+    {
+      "domain": "thehill.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://thehill.com/feed/?feed=partnerfeed-news-feed&format=rss",
+      "sitemapUrl": "https://thehill.com/news-sitemap.xml"
+    },
+    {
+      "domain": "bbc.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "GB",
+      "sitemapUrl": "https://www.bbc.com/sitemaps/https-index-com-mundo-news.xml"
+    },
+    {
+      "domain": "theguardian.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "GB",
+      "feedUrl": "https://www.theguardian.com/us/business/rss",
+      "sitemapUrl": "https://www.theguardian.com/sitemaps/news.xml"
+    },
+    {
+      "domain": "economist.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "GB",
+      "sitemapUrl": "https://www.economist.com/googlenews.xml"
+    },
+    {
+      "domain": "investors.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://www.investors.com/feed/",
+      "sitemapUrl": "https://www.investors.com/news-sitemap.xml"
+    },
+    {
+      "domain": "barrons.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "sitemapUrl": "https://www.barrons.com/bol_news_sitemap.xml"
+    },
+    {
+      "domain": "fool.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://www.fool.com/a/feeds/foolwatch?apikey=foolwatch-feed",
+      "sitemapUrl": "https://www.fool.com/news-sitemap.xml"
+    },
+    {
+      "domain": "zacks.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "sitemapUrl": "https://www.zacks.com/news_all_articles_sitemap.xml"
+    },
+    {
+      "domain": "retaildive.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://www.retaildive.com/feeds/news/"
+    },
+    {
+      "domain": "law360.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "US",
+      "sitemapUrl": "https://www.law360.com/sitemap_news.xml"
+    },
+    {
+      "domain": "scmp.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "HK",
+      "feedUrl": "https://www.scmp.com/rss/91/feed/"
+    },
+    {
+      "domain": "straitstimes.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "SG",
+      "sitemapUrl": "https://www.straitstimes.com/googlenews.xml"
+    },
+    {
+      "domain": "livemint.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "IN",
+      "feedUrl": "https://www.livemint.com/rss/news"
+    },
+    {
+      "domain": "hindustantimes.com",
+      "sourceType": "business",
+      "language": "en",
+      "country": "IN",
+      "feedUrl": "https://www.hindustantimes.com/feeds/rss/business/rssfeed.xml",
+      "sitemapUrl": "https://www.hindustantimes.com/sitemap/news.xml"
+    },
+    {
+      "domain": "globalnews.ca",
+      "sourceType": "business",
+      "language": "en",
+      "country": "CA",
+      "feedUrl": "https://globalnews.ca/feed/",
+      "sitemapUrl": "https://globalnews.ca/news-sitemap.xml"
+    },
+    {
+      "domain": "latimes.com",
+      "sourceType": "regional",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://www.latimes.com/index.rss",
+      "sitemapUrl": "https://www.latimes.com/news-sitemap.xml"
+    },
+    {
+      "domain": "bostonglobe.com",
+      "sourceType": "regional",
+      "language": "en",
+      "country": "US",
+      "sitemapUrl": "https://www.bostonglobe.com/arc/outboundfeeds/news-sitemap/?outputType=xml"
+    },
+    {
+      "domain": "dallasnews.com",
+      "sourceType": "regional",
+      "language": "en",
+      "country": "US",
+      "sitemapUrl": "https://www.dallasnews.com/web-sitemap-index.xml"
+    },
+    {
+      "domain": "seattletimes.com",
+      "sourceType": "regional",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://www.seattletimes.com/business/feed/"
+    },
+    {
+      "domain": "ajc.com",
+      "sourceType": "regional",
+      "language": "en",
+      "country": "US",
+      "sitemapUrl": "https://feeds.ajc.com/arc/outboundfeeds/news-sitemap/?outputType=xml"
+    },
+    {
+      "domain": "startribune.com",
+      "sourceType": "regional",
+      "language": "en",
+      "country": "US",
+      "feedUrl": "https://www.startribune.com/rss"
+    },
+    {
+      "domain": "inquirer.com",
+      "sourceType": "regional",
+      "language": "en",
+      "country": "US",
+      "sitemapUrl": "https://www.inquirer.com/sitemaps/48hour-news-sitemap-partner.xml"
+    },
+    {
+      "domain": "cleveland.com",
+      "sourceType": "regional",
+      "language": "en",
+      "country": "US",
+      "sitemapUrl": "https://www.cleveland.com/arc/outboundfeeds/news-sitemap-index/?outputType=xml"
+    },
+    {
+      "domain": "oregonlive.com",
+      "sourceType": "regional",
+      "language": "en",
+      "country": "US",
+      "sitemapUrl": "https://www.oregonlive.com/arc/outboundfeeds/news-sitemap-index/?outputType=xml"
+    },
+    {
+      "domain": "spiegel.de",
+      "sourceType": "non_english",
+      "language": "de",
+      "country": "DE",
+      "feedUrl": "https://www.spiegel.de/schlagzeilen/index.rss",
+      "sitemapUrl": "https://www.spiegel.de/sitemaps/news-de.xml"
+    },
+    {
+      "domain": "faz.net",
+      "sourceType": "non_english",
+      "language": "de",
+      "country": "DE",
+      "feedUrl": "https://www.faz.net/rss/aktuell/"
+    },
+    {
+      "domain": "lemonde.fr",
+      "sourceType": "non_english",
+      "language": "fr",
+      "country": "FR",
+      "feedUrl": "https://www.lemonde.fr/rss/une.xml",
+      "sitemapUrl": "https://www.lemonde.fr/sitemap_news.xml"
+    },
+    {
+      "domain": "lefigaro.fr",
+      "sourceType": "non_english",
+      "language": "fr",
+      "country": "FR",
+      "feedUrl": "https://www.lefigaro.fr/rss/figaro_actualites.xml",
+      "sitemapUrl": "https://www.lefigaro.fr/sitemap_news.xml"
+    },
+    {
+      "domain": "elmundo.es",
+      "sourceType": "non_english",
+      "language": "es",
+      "country": "ES",
+      "feedUrl": "https://www.elmundo.es/rss/portada.xml",
+      "sitemapUrl": "https://www.elmundo.es/sitemaps/directoeditorial_news_a3f3222a2fa5a98b79804fa04675a139.xml"
+    },
+    {
+      "domain": "corriere.it",
+      "sourceType": "non_english",
+      "language": "it",
+      "country": "IT",
+      "sitemapUrl": "https://www.corriere.it/salute/il-medico-risponde/news/sitemap.xml"
+    },
+    {
+      "domain": "repubblica.it",
+      "sourceType": "non_english",
+      "language": "it",
+      "country": "IT",
+      "feedUrl": "https://www.repubblica.it/rss/homepage/rss2.0.xml"
+    },
+    {
+      "domain": "asahi.com",
+      "sourceType": "non_english",
+      "language": "ja",
+      "country": "JP",
+      "feedUrl": "https://www.asahi.com/rss/asahi/newsheadlines.rdf"
+    },
+    {
+      "domain": "rt.com",
+      "sourceType": "non_english",
+      "language": "en",
+      "country": "RU",
+      "feedUrl": "https://www.rt.com/rss/",
+      "sitemapUrl": "https://www.rt.com/newssitemap.xml"
+    },
+    {
+      "domain": "tass.com",
+      "sourceType": "non_english",
+      "language": "en",
+      "country": "RU",
+      "feedUrl": "https://tass.com/rss/v2.xml"
+    },
+    {
+      "domain": "france24.com",
+      "sourceType": "non_english",
+      "language": "fr",
+      "country": "FR",
+      "feedUrl": "https://www.france24.com/en/rss",
+      "sitemapUrl": "https://www.france24.com/sitemaps/fr/news.xml"
+    },
+    {
+      "domain": "swissinfo.ch",
+      "sourceType": "non_english",
+      "language": "en",
+      "country": "CH",
+      "sitemapUrl": "https://www.swissinfo.ch/eng/sitemap-news.xml"
+    },
+    {
+      "domain": "hurriyetdailynews.com",
+      "sourceType": "non_english",
+      "language": "en",
+      "country": "TR",
+      "sitemapUrl": "https://www.hurriyetdailynews.com/sitemaps/newssitemap.xml"
+    },
+    {
+      "domain": "koreaherald.com",
+      "sourceType": "non_english",
+      "language": "en",
+      "country": "KR",
+      "feedUrl": "https://www.koreaherald.com/rss/newsAll"
+    },
+    {
+      "domain": "thehindu.com",
+      "sourceType": "non_english",
+      "language": "en",
+      "country": "IN",
+      "feedUrl": "https://www.thehindu.com/news/feeder/default.rss",
+      "sitemapUrl": "https://www.thehindu.com/sitemap/googlenews/all/all.xml"
+    },
+    {
+      "domain": "nzherald.co.nz",
+      "sourceType": "non_english",
+      "language": "en",
+      "country": "NZ",
+      "sitemapUrl": "https://www.nzherald.co.nz/arc/outboundfeeds/sitemap-index/?outputType=xml&_website=waikato-news"
+    },
+    {
+      "domain": "haaretz.com",
+      "sourceType": "non_english",
+      "language": "en",
+      "country": "IL",
+      "sitemapUrl": "https://www.haaretz.com/news-sitemap-content.xml"
+    },
+    {
+      "domain": "channelnewsasia.com",
+      "sourceType": "non_english",
+      "language": "en",
+      "country": "SG",
+      "sitemapUrl": "https://www.channelnewsasia.com/api/v1/sitemap-news-feed?_format=xml"
+    },
+    {
+      "domain": "indiatoday.in",
+      "sourceType": "non_english",
+      "language": "en",
+      "country": "IN",
+      "feedUrl": "https://www.indiatoday.in/rss/home",
+      "sitemapUrl": "https://www.indiatoday.in/news-it-sitemap.xml"
+    },
+    {
+      "domain": "timesofisrael.com",
+      "sourceType": "non_english",
+      "language": "en",
+      "country": "IL",
+      "sitemapUrl": "https://www.timesofisrael.com/news-sitemap.xml"
+    },
+    {
+      "domain": "mg.co.za",
+      "sourceType": "non_english",
+      "language": "en",
+      "country": "ZA",
+      "feedUrl": "https://mg.co.za/atom/"
+    },
+    {
+      "domain": "vancouversun.com",
+      "sourceType": "non_english",
+      "language": "en",
+      "country": "CA",
+      "feedUrl": "https://vancouversun.com/feed",
+      "sitemapUrl": "https://vancouversun.com/sitemap-news.xml"
+    },
+    {
+      "domain": "smh.com.au",
+      "sourceType": "non_english",
+      "language": "en",
+      "country": "AU",
+      "feedUrl": "https://www.smh.com.au/rss/feed.xml",
+      "sitemapUrl": "https://www.smh.com.au/sitemaps/news/brands/smh"
+    },
+    {
+      "domain": "abc.net.au",
+      "sourceType": "non_english",
+      "language": "en",
+      "country": "AU",
+      "feedUrl": "https://www.abc.net.au/news/feed/51120/rss.xml"
+    },
+    {
+      "domain": "stuff.co.nz",
+      "sourceType": "non_english",
+      "language": "en",
+      "country": "NZ",
+      "feedUrl": "https://www.stuff.co.nz/rss",
+      "sitemapUrl": "https://www.stuff.co.nz/sitemap/news/sitemap.xml"
+    },
+    {
+      "domain": "elpais.com",
+      "sourceType": "non_english",
+      "language": "es",
+      "country": "ES",
+      "feedUrl": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada"
+    },
+    {
+      "domain": "irishtimes.com",
+      "sourceType": "regional",
+      "language": "en",
+      "country": "IE",
+      "feedUrl": "https://www.irishtimes.com/arc/outboundfeeds/sitemap-news-index/latest/"
+    }
+  ]
+}
