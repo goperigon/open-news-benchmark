@@ -1,32 +1,69 @@
 {
   "uuid": "7f0ec4dc-d7d5-446f-954e-3eec34e2ae4e",
-  "name": "Benchmark: Global Cyber Attacks",
-  "status": "DRAFT",
+  "name": "Benchmark: Global Cyber Breach Reports",
+  "status": "ACTIVE",
+  "alignedFromSignalUuid": "58372171-8797-476b-af48-e5f9ac3209a5",
   "createdAt": "2026-10-23T17:10:31.524374Z",
-  "configSha256": "adb52bcfad87ea3e42d437045e093d60a2e14079e39c7f40033f44aa1a9a3fd8",
-  "note": "Set status to ACTIVE via Perigon before official runs. Harness reads events from PERIGON_MONITOR_ID (defaults to this uuid). Events API returns errors while DRAFT.",
-  "profile": {
-    "source": "Prior org monitors (30d) + query smoke on 2026-10-23",
-    "expectedEventsPerDay": "25-50 global breach-class events at broad scope",
-    "overlapNote": "~50% event overlap between two legacy cyber breach monitors; expect dedup tuning after first 24h ACTIVE.",
-    "activation": "Requires explicit approval before set_monitor_status ACTIVE."
-  },
-  "monitoringObjective": "Track reported cybersecurity breaches and data leaks globally as they are reported, including small and non-English incidents. Exclude general advice and patch-only announcements without a victim.",
+  "activatedAt": "2026-10-23T17:27:21.060904Z",
+  "updatedAt": "2026-10-23T17:40:01.908966Z",
+  "note": "Benchmark-owned copy of production Global Cyber Breach Reports (objective, query, schema). Harness reads PERIGON_MONITOR_ID (defaults to uuid).",
+  "monitoringObjective": "Track major cybersecurity breaches and data leaks globally as they are reported in real-time.",
+  "prompt": "Emit one distinct event per major cybersecurity breach or data leak affecting a named organization. List every organization reported as affected. Exclude general cybersecurity news without a specific breach victim, opinion without an incident, and vulnerability-only stories with no data compromise or unauthorized access.",
   "query": {
-    "q": "breach OR ransomware OR cyberattack OR \"data leak\"",
-    "searchTranslation": true
+    "q": "(\"cybersecurity incident\" OR \"cyber attack\" OR \"cyber-attack\" OR cyberattack* OR \"data breach\" OR \"data leak\" OR hack* OR breach* OR leak* OR \"security incident\" OR vulnerabilit* OR exploit* OR ransomware OR malware OR phishing OR \"zero day\" OR \"zero-day\") AND (data OR information OR record OR credential OR password OR \"personal information\" OR \"PII\" OR \"customer data\" OR \"user data\" OR \"sensitive data\" OR system OR network OR server OR database) AND (compromis OR stolen OR exposed OR access OR disrupt OR infiltrat OR exfiltrat OR \"unauthorized access\")",
+    "language": [
+      "en"
+    ],
+    "excludeLabel": [
+      "Low"
+    ],
+    "searchTranslation": false
   },
   "dataSchema": {
     "version": "V1",
     "allowExtra": false,
     "schema": {
-      "country": { "type": "STRING", "required": true },
-      "eventType": { "type": "ENUM", "values": ["CYBERSECURITY_BREACH"] },
-      "breachType": { "type": "ENUM", "values": ["OTHER", "RANSOMWARE", "DATA LEAK", "PHISHING"] },
-      "discoveryDate": { "type": "STRING", "required": true },
-      "shortDescription": { "type": "STRING", "required": true },
-      "peopleAffectedCount": { "type": "INTEGER", "required": false },
-      "affectedOrganizationName": { "type": "ARRAY", "required": true }
+      "country": {
+        "type": "STRING",
+        "required": true
+      },
+      "eventType": {
+        "type": "ENUM",
+        "values": [
+          "CYBERSECURITY_BREACH"
+        ]
+      },
+      "breachType": {
+        "type": "ENUM",
+        "values": [
+          "OTHER",
+          "RANSOMWARE",
+          "INSIDER THREAT",
+          "DATA LEAK",
+          "PHISHING"
+        ]
+      },
+      "discoveryDate": {
+        "type": "STRING",
+        "required": true
+      },
+      "shortDescription": {
+        "type": "STRING",
+        "required": true
+      },
+      "dataTypeCompromised": {
+        "type": "ARRAY",
+        "required": false
+      },
+      "affectedRecordsCount": {
+        "type": "INTEGER",
+        "required": false
+      },
+      "affectedOrganizationName": {
+        "type": "ARRAY",
+        "required": true
+      }
     }
-  }
+  },
+  "configSha256": "8c2950eac5c1d7af6b1e5433a8a9ef7e1d0892955522b70345af58995cbc4be2"
 }

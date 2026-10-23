@@ -8,7 +8,7 @@ Prospects ask: **“Why don’t I just use ChatGPT for this?”** This suite mea
 
 | ID | Role |
 | --- | --- |
-| `perigon_monitor` | Flagship: frozen monitor in [perigon-monitor.json](perigon-monitor.json) |
+| `perigon_monitor` | Flagship: benchmark-owned copy of production **Global Cyber Breach Reports** ([perigon-monitor.json](perigon-monitor.json), source signal `58372171-8797-476b-af48-e5f9ac3209a5`) |
 | `perigon_search` | Ablation: same news index, keyword search only |
 | `google_news_rss` | Free baseline: fixed RSS query |
 | `openai_websearch` | ChatGPT-class model + native web search |
@@ -26,7 +26,8 @@ LLMs are labeled **general-purpose LLMs with web search**, not monitoring produc
 
 ## Same task
 
-- Shared definition and output shape: [prompt.md](prompt.md), [incident-schema.json](incident-schema.json).
+- Shared definition and output shape: [prompt.md](prompt.md), [incident-schema.json](incident-schema.json). Aligned with the Global Cyber Breach monitor (major breaches/leaks, named victims).
+- The frozen monitor query matches production: **English articles**, `excludeLabel: Low`, boolean keyword query — not the full multilingual ground-truth panel filter.
 - **Discovery poll:** every 15 minutes for all participants.
 - **Tracking window:** 4 hours per incident (`trackingWindowMs` in [config.json](config.json)); smoke uses 1 hour.
 - Monitor events are **read on the poll schedule**, not credited at raw push time (raw timestamps disclosed separately).

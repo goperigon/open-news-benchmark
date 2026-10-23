@@ -1,27 +1,65 @@
-import { readFileSync } from 'node:fs'
-
-import { createPerigonAdapter } from '../providers/perigon.ts'
-import { cyberBreachPerigonMonitorPath } from '../lib/paths.ts'
-import { normalizeFromLlmPayload } from '../cyber/claim-normalize.ts'
+import { loadCyberMonitorQuery } from '../lib/load-cyber-monitor.ts'
+import { envPresent } from '../providers/types.ts'
 import type { DiscoveryAdapter, DiscoveryPollResult } from './types.ts'
 
-function monitorQuery(): string {
-  const raw = JSON.parse(readFileSync(cyberBreachPerigonMonitorPath(), 'utf8')) as {
-    query?: { q?: string }
+async function perigonSearchArticles(sinceIso: string): Promise<{ articles: Array<{ url: string; title: string }>; responseMs: number }> {
+  const apiKey = process.env.PERIGON_API_KEY
+  if (!apiKey) {
+    throw new Error('[perigon] missing PERIGON_API_KEY')
   }
-  return raw.query?.q ?? 'breach OR ransomware OR cyberattack'
+  const query = loadCyberMonitorQuery()
+  const base = process.env.API_BASE_URL ?? 'https://api.perigon.io'
+  const params = new URLSearchParams({
+    apiKey,
+    sortBy: 'relevance',
+    size: '100',
+    showReprints: 'false',
+    q: query.q,
+    from: sinceIso,
+  })
+  if (query.searchTranslation === true) {
+    params.set('searchTranslation', 'true')
+  } else if (query.searchTranslation === false) {
+    params.set('searchTranslation', 'false')
+  }
+  for (const lang of query.language ?? []) {
+    params.append('language', lang)
+  }
+  for (const label of query.excludeLabel ?? []) {
+    params.append('excludeLabel', label)
+  }
+  const started = performance.now()
+  const response = await fetch(`${base}/v1/all?${params}`)
+  const responseMs = performance.now() - started
+  if (!response.ok) {
+    throw new Error(`[perigon] HTTP ${response.status}`)
+  }
+  const payload: unknown = await response.json()
+  const articles: Array<{ url: string; title: string }> = []
+  if (typeof payload === 'object' && payload !== null && 'articles' in payload && Array.isArray(payload.articles)) {
+    for (const item of payload.articles) {
+      if (typeof item !== 'object' || item === null) {
+        continue
+      }
+      const url = 'url' in item && typeof item.url === 'string' ? item.url : null
+      const title = 'title' in item && typeof item.title === 'string' ? item.title : null
+      if (url && title) {
+        articles.push({ url, title })
+      }
+    }
+  }
+  return { articles, responseMs }
 }
 
 export function createPerigonSearchDiscoveryAdapter(): DiscoveryAdapter {
-  const perigon = createPerigonAdapter()
   return {
     id: 'perigon_search',
     displayName: 'Perigon search API (ablation)',
     requiredEnv: ['PERIGON_API_KEY'],
-    isConfigured: () => perigon.isConfigured(),
+    isConfigured: () => envPresent(['PERIGON_API_KEY']),
     async poll(sinceIso: string): Promise<DiscoveryPollResult> {
       try {
-        const { articles, responseMs } = await perigon.searchText({ query: monitorQuery(), sinceIso })
+        const { articles, responseMs } = await perigonSearchArticles(sinceIso)
         const incidents = articles.map((article) => ({
           shortDescription: article.title,
           attackType: 'OTHER',
@@ -42,6 +80,3 @@ export function createPerigonSearchDiscoveryAdapter(): DiscoveryAdapter {
     },
   }
 }
-
-/** Placeholder for article→structured extraction via LLM in extract-test; search arm returns titles only. */
-export { normalizeFromLlmPayload }

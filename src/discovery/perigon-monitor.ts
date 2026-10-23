@@ -87,6 +87,9 @@ function parseMonitorEvents(payload: unknown) {
     if ('summary' in event && typeof event.summary === 'string') {
       dataField.summary = event.summary
     }
+    if ('articles' in event && Array.isArray(event.articles)) {
+      dataField.articles = event.articles
+    }
     out.push(...normalizeFromMonitorEvent(dataField))
   }
   return out

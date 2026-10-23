@@ -22,6 +22,31 @@ export function normalizeFromLlmPayload(raw: unknown): NormalizedCyberIncident[]
   return out
 }
 
+function citationUrlFromEventContext(data: Record<string, unknown>): string | null {
+  if (typeof data.url === 'string' && data.url.startsWith('http')) {
+    return data.url
+  }
+  if (Array.isArray(data.articles)) {
+    for (const article of data.articles) {
+      if (typeof article === 'object' && article !== null && 'url' in article) {
+        const url = article.url
+        if (typeof url === 'string' && url.startsWith('http')) {
+          return url
+        }
+      }
+    }
+  }
+  if (
+    typeof data.source === 'object' &&
+    data.source !== null &&
+    'domain' in data.source &&
+    typeof data.source.domain === 'string'
+  ) {
+    return `https://${data.source.domain}/`
+  }
+  return null
+}
+
 export function normalizeFromMonitorEvent(data: Record<string, unknown>): NormalizedCyberIncident[] {
   const names = Array.isArray(data.affectedOrganizationName)
     ? data.affectedOrganizationName.filter((x): x is string => typeof x === 'string')
@@ -29,15 +54,21 @@ export function normalizeFromMonitorEvent(data: Record<string, unknown>): Normal
   if (names.length === 0) {
     return []
   }
-  const url =
-    typeof data.url === 'string'
-      ? data.url
-      : typeof data.source === 'object' &&
-          data.source !== null &&
-          'domain' in data.source &&
-          typeof data.source.domain === 'string'
-        ? `https://${data.source.domain}/`
-        : 'https://unknown.local/'
+  const url = citationUrlFromEventContext(data)
+  if (!url) {
+    return []
+  }
+  const recordCount =
+    typeof data.affectedRecordsCount === 'number'
+      ? Math.floor(data.affectedRecordsCount)
+      : typeof data.peopleAffectedCount === 'number'
+        ? Math.floor(data.peopleAffectedCount)
+        : null
+  const dataTypes = Array.isArray(data.dataTypeCompromised)
+    ? data.dataTypeCompromised.filter((x): x is string => typeof x === 'string')
+    : Array.isArray(data.dataTypesCompromised)
+      ? data.dataTypesCompromised.filter((x): x is string => typeof x === 'string')
+      : undefined
   const incident: NormalizedCyberIncident = {
     shortDescription:
       typeof data.shortDescription === 'string'
@@ -49,8 +80,8 @@ export function normalizeFromMonitorEvent(data: Record<string, unknown>): Normal
       typeof data.breachType === 'string' ? data.breachType.replace(/\s+/g, '_').toUpperCase() : 'BREACH',
     impactedOrganizationNames: names,
     impactedOrganizationDomains: [],
-    peopleAffectedCount:
-      typeof data.peopleAffectedCount === 'number' ? Math.floor(data.peopleAffectedCount) : null,
+    peopleAffectedCount: recordCount,
+    dataTypesCompromised: dataTypes,
     countriesAffected:
       typeof data.country === 'string' && data.country.length === 2 ? [data.country.toUpperCase()] : [],
     citationUrls: [url],
